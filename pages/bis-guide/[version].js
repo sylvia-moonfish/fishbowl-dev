@@ -13,9 +13,7 @@ import ListSubheader from "@material-ui/core/ListSubheader";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 
-import fs from "fs";
 import { useRouter } from "next/router";
-import path from "path";
 import React from "react";
 
 import SiteInfo from "/data/site-info";
@@ -42,34 +40,38 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
   const { version } = context.params;
 
-  const jobsPath = path.join(
-    process.cwd(),
-    `/data/bis-guide/${version}/bis-jobs.json`
-  );
-  if (!fs.existsSync(jobsPath)) {
-    console.log(`${jobsPath} doesn't exist!`);
-    return {
-      notFound: true,
-    };
-  }
-  const jobs = fs.readFileSync(jobsPath);
+  const jobs = await fetch(
+    `${process.env.HOSTNAME}/data/bis-guide/${version}/bis-jobs.json`
+  )
+    .then((response) => {
+      if (!response.ok) {
+        return { notFound: true };
+      }
+      return response.json();
+    })
+    .catch((error) => {
+      return { notFound: true };
+    });
+  if (jobs.notFound) return jobs;
 
-  const pageDataPath = path.join(
-    process.cwd(),
-    `/data/bis-guide/${version}/bis-page-data.json`
-  );
-  if (!fs.existsSync(pageDataPath)) {
-    console.log(`${pageDataPath} doesn't exist!`);
-    return {
-      notFound: true,
-    };
-  }
-  const pageData = fs.readFileSync(pageDataPath);
+  const pageData = await fetch(
+    `${process.env.HOSTNAME}/data/bis-guide/${version}/bis-page-data.json`
+  )
+    .then((response) => {
+      if (!response.ok) {
+        return { notFound: true };
+      }
+      return response.json();
+    })
+    .catch((error) => {
+      return { notFound: true };
+    });
+  if (pageData.notFound) return pageData;
 
   return {
     props: {
-      jobs: JSON.parse(jobs),
-      pageData: JSON.parse(pageData),
+      jobs: jobs,
+      pageData: pageData,
     },
   };
 }
