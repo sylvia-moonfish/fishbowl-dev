@@ -40,14 +40,11 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
   const { version } = context.params;
 
-  console.log(`${process.env.HOSTNAME}/data/bis-guide/${version}/bis-jobs.json`);
   const jobs = await fetch(
     `${process.env.HOSTNAME}/data/bis-guide/${version}/bis-jobs.json`
   )
     .then((response) => {
-      if (!response.ok) {
-        return { notFound: true };
-      }
+      if (!response.ok) return { notFound: true };
       return response.json();
     })
     .catch((error) => {
@@ -59,9 +56,7 @@ export async function getStaticProps(context) {
     `${process.env.HOSTNAME}/data/bis-guide/${version}/bis-page-data.json`
   )
     .then((response) => {
-      if (!response.ok) {
-        return { notFound: true };
-      }
+      if (!response.ok) return { notFound: true };
       return response.json();
     })
     .catch((error) => {
