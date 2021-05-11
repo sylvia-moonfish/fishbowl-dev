@@ -47,6 +47,7 @@ export async function getStaticProps(context) {
     `/data/bis-guide/${version}/bis-jobs.json`
   );
   if (!fs.existsSync(jobsPath)) {
+    console.log(`${jobsPath} doesn't exist!`);
     return {
       notFound: true,
     };
@@ -58,6 +59,7 @@ export async function getStaticProps(context) {
     `/data/bis-guide/${version}/bis-page-data.json`
   );
   if (!fs.existsSync(pageDataPath)) {
+    console.log(`${pageDataPath} doesn't exist!`);
     return {
       notFound: true,
     };
