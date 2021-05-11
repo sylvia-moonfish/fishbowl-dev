@@ -40,6 +40,7 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
   const { version } = context.params;
 
+  console.log(`${process.env.HOSTNAME}/data/bis-guide/${version}/bis-jobs.json`);
   const jobs = await fetch(
     `${process.env.HOSTNAME}/data/bis-guide/${version}/bis-jobs.json`
   )
