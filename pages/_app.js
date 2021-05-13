@@ -8,6 +8,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import { ThemeProvider } from "@material-ui/styles";
 
 import Head from "next/head";
+import Router from "next/router";
 import React from "react";
 
 import SiteInfo from "/data/site-info";
@@ -15,6 +16,14 @@ import AppBarImpl from "/src/components/layout/app-bar-impl";
 import DrawerImpl from "/src/components/layout/drawer-impl";
 import theme from "/src/theme";
 import "/styles/fonts.css";
+
+Router.events.on("routeChangeComplete", (url) => {
+  if (typeof window !== "undefined") {
+    window.gtag("config", SiteInfo.gtmId, {
+      page_location: url,
+    });
+  }
+});
 
 export const cache = createCache({ key: "css", prepend: true });
 
@@ -58,6 +67,22 @@ const FishbowlApp = ({ Component, pageProps }) => {
         <meta content="website" property="og:type" />
         <meta content="summary" name="twitter:card" />
         <meta content={"@" + SiteInfo.twitterUsername} name="twitter:site" />
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${SiteInfo.gtmId}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', '${SiteInfo.gtmId}');
+          `,
+          }}
+        />
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
