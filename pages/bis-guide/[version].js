@@ -141,6 +141,7 @@ const BisGuide = (props) => {
                         return (
                           <ListItem
                             button
+                            disabled={!job.enabled}
                             key={jobIndex}
                             onClick={() => {
                               router.push(`${router.asPath}/${job.initial}`);
@@ -177,6 +178,7 @@ const BisGuide = (props) => {
                         return (
                           <ListItem
                             button
+                            disabled={!job.enabled}
                             key={jobIndex}
                             onClick={() => {
                               router.push(`${router.asPath}/${job.initial}`);
@@ -216,6 +218,7 @@ const BisGuide = (props) => {
                         return (
                           <ListItem
                             button
+                            disabled={!job.enabled}
                             key={jobIndex}
                             onClick={() => {
                               router.push(`${router.asPath}/${job.initial}`);
@@ -247,6 +250,7 @@ const BisGuide = (props) => {
                             return (
                               <ListItem
                                 button
+                                disabled={!job.enabled}
                                 key={jobIndex}
                                 onClick={() => {
                                   router.push(
@@ -278,6 +282,7 @@ const BisGuide = (props) => {
                             return (
                               <ListItem
                                 button
+                                disabled={!job.enabled}
                                 key={jobIndex}
                                 onClick={() => {
                                   router.push(

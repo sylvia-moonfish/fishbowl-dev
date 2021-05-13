@@ -8,29 +8,29 @@
     {
       "name": "전사",
       "initial": "war",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "암흑기사",
       "initial": "drk",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "건브레이커",
       "initial": "gnb",
-      "enabled": true
+      "enabled": false
     }
   ],
   "healers": [
     {
       "name": "백마도사",
       "initial": "whm",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "학자",
       "initial": "sch",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "점성술사",

@@ -75,8 +75,17 @@ const DrawerList = (props) => {
         </ListItem>
         <Collapse in={isArchiveOpen} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
-            <ListItem button className={classes.nested}>
-              <ListItemText primary="TEST" />
+            <ListItem
+              button
+              className={classes.nested}
+              dense
+              onClick={() => {
+                props.setMobileOpen(false);
+                router.push("/5.2/guide/bis-guide");
+              }}
+              selected={router.asPath.indexOf("/5.2/guide/bis-guide") !== -1}
+            >
+              <ListItemText primary="5.2 BiS 가이드" />
             </ListItem>
           </List>
         </Collapse>
