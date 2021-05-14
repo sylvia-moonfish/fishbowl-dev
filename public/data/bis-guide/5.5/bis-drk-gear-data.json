@@ -5915,11 +5915,11 @@
         },
         "dps": 5090.5,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.43,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.94,
+        "hutonGcd": 2.06,
+        "shifuGcd": 2.11,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -5944,7 +5944,7 @@
         },
         "ch": 26.9,
         "dh": 4.0,
-        "ten": 2.0,
+        "ten": 0.9,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Zweihander",
@@ -6353,11 +6353,11 @@
         },
         "dps": 5099.5,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.38,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.9,
+        "hutonGcd": 2.02,
+        "shifuGcd": 2.07,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -6382,7 +6382,7 @@
         },
         "ch": 26.9,
         "dh": 4.0,
-        "ten": 2.0,
+        "ten": 0.9,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Zweihander",
@@ -6813,11 +6813,11 @@
         },
         "dps": 4198.5,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.4,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.92,
+        "hutonGcd": 2.04,
+        "shifuGcd": 2.09,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -6842,7 +6842,7 @@
         },
         "ch": 24.4,
         "dh": 5.0,
-        "ten": 2.0,
+        "ten": 1.2,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Zweihander",
@@ -7273,11 +7273,11 @@
         },
         "dps": 4201.2,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.38,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.9,
+        "hutonGcd": 2.02,
+        "shifuGcd": 2.07,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -7302,7 +7302,7 @@
         },
         "ch": 24.4,
         "dh": 5.0,
-        "ten": 2.0,
+        "ten": 1.2,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Zweihander",

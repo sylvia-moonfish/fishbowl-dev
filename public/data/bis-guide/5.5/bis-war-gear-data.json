@@ -5980,11 +5980,11 @@
         },
         "dps": 5173.9,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.43,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.94,
+        "hutonGcd": 2.07,
+        "shifuGcd": 2.12,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -6009,7 +6009,7 @@
         },
         "ch": 26.9,
         "dh": 0.0,
-        "ten": 2.0,
+        "ten": 1.1,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Labrys",
@@ -6375,11 +6375,11 @@
         },
         "dps": 5155.6,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.38,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.9,
+        "hutonGcd": 2.02,
+        "shifuGcd": 2.07,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -6404,7 +6404,7 @@
         },
         "ch": 26.7,
         "dh": 0.0,
-        "ten": 2.0,
+        "ten": 1.1,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Labrys",
@@ -6813,11 +6813,11 @@
         },
         "dps": 5161.8,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.37,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.9,
+        "hutonGcd": 2.02,
+        "shifuGcd": 2.06,
         "rotation": 0,
         "mealName": "Chicken Fettuccine",
         "meal": {
@@ -6842,7 +6842,7 @@
         },
         "ch": 27.4,
         "dh": 0.0,
-        "ten": 2.0,
+        "ten": 1.2,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Labrys",
@@ -7251,11 +7251,11 @@
         },
         "dps": 4257.7,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.43,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.94,
+        "hutonGcd": 2.07,
+        "shifuGcd": 2.12,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -7280,7 +7280,7 @@
         },
         "ch": 24.4,
         "dh": 0.0,
-        "ten": 2.0,
+        "ten": 1.4,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Labrys",
@@ -7689,11 +7689,11 @@
         },
         "dps": 4243.1,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.38,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.9,
+        "hutonGcd": 2.02,
+        "shifuGcd": 2.07,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -7718,7 +7718,7 @@
         },
         "ch": 24.4,
         "dh": 0.0,
-        "ten": 2.0,
+        "ten": 1.2,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Labrys",
@@ -8127,11 +8127,11 @@
         },
         "dps": 4244.4,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.37,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.9,
+        "hutonGcd": 2.02,
+        "shifuGcd": 2.06,
         "rotation": 0,
         "mealName": "Chicken Fettuccine",
         "meal": {
@@ -8156,7 +8156,7 @@
         },
         "ch": 25.0,
         "dh": 0.0,
-        "ten": 2.0,
+        "ten": 1.4,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Labrys",

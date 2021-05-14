@@ -2705,11 +2705,11 @@
         },
         "dps": 5590.5,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.4,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.92,
+        "hutonGcd": 2.04,
+        "shifuGcd": 2.09,
         "rotation": 0,
         "mealName": "Chicken Fettuccine",
         "meal": {
@@ -2733,8 +2733,8 @@
           }
         },
         "ch": 25.9,
-        "dh": 4.0,
-        "ten": 2.0,
+        "dh": 5.4,
+        "ten": 0.9,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Manatrigger",
@@ -3186,11 +3186,11 @@
         },
         "dps": 4499.0,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.4,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.92,
+        "hutonGcd": 2.04,
+        "shifuGcd": 2.09,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -3215,7 +3215,7 @@
         },
         "ch": 23.3,
         "dh": 2.0,
-        "ten": 2.0,
+        "ten": 0.0,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Manatrigger",

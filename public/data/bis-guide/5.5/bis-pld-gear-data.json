@@ -5323,11 +5323,11 @@
         },
         "dps": 5176.1,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.4,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.92,
+        "hutonGcd": 2.04,
+        "shifuGcd": 2.09,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -5352,7 +5352,7 @@
         },
         "ch": 26.4,
         "dh": 5.0,
-        "ten": 2.0,
+        "ten": 1.0,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Bastard Sword",
@@ -5851,11 +5851,11 @@
         },
         "dps": 4253.2,
         "hps": 0.0,
-        "mpRegen": 0,
+        "mpRegen": 179,
         "gcd": 2.4,
-        "glGcd": 0.0,
-        "hutonGcd": 0.0,
-        "shifuGcd": 0.0,
+        "glGcd": 1.92,
+        "hutonGcd": 2.04,
+        "shifuGcd": 2.09,
         "rotation": 0,
         "mealName": "Smoked Chicken",
         "meal": {
@@ -5880,7 +5880,7 @@
         },
         "ch": 23.0,
         "dh": 5.0,
-        "ten": 2.0,
+        "ten": 1.2,
         "gears": [
           {
             "nameEn": "Augmented Law's Order Bastard Sword",
