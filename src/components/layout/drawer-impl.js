@@ -3,18 +3,18 @@ import Grid from "@material-ui/core/Grid";
 import Hidden from "@material-ui/core/Hidden";
 import IconButton from "@material-ui/core/IconButton";
 import { makeStyles } from "@material-ui/core/styles";
+import Tooltip from "@material-ui/core/Tooltip";
 import Typography from "@material-ui/core/Typography";
 
-import HomeIcon from "@material-ui/icons/Home";
-
-import Link from "next/link";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import YoutubeIcon from "@material-ui/icons/Youtube";
 
 import React from "react";
+import { useRouter } from "next/router";
 
 import SiteInfo from "/data/site-info";
+import DiscordIcon from "/src/components/icons/discord-icon";
 import TwitchIcon from "/src/components/icons/twitch-icon";
-import TwitterIcon from "/src/components/icons/twitter-icon";
-import YoutubeIcon from "/src/components/icons/youtube-icon";
 import DrawerList from "/src/components/layout/drawer-list";
 
 const useStyles = makeStyles((theme) => ({
@@ -47,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
 
 const DrawerImpl = (props) => {
   const classes = useStyles();
+  const router = useRouter();
 
   const drawer = (
     <div className={classes.grow}>
@@ -61,21 +62,6 @@ const DrawerImpl = (props) => {
   const bottomLink = (
     <React.Fragment>
       <Grid container justify="center">
-        <Link href="/">
-          <IconButton>
-            <HomeIcon />
-          </IconButton>
-        </Link>
-        <a
-          className={classes.link}
-          href={SiteInfo.twitchLink}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <IconButton>
-            <TwitchIcon />
-          </IconButton>
-        </a>
         <a
           className={classes.link}
           href={SiteInfo.twitterLink}
@@ -86,6 +72,26 @@ const DrawerImpl = (props) => {
             <TwitterIcon />
           </IconButton>
         </a>
+        <Tooltip arrow placement="top" title={SiteInfo.discordName}>
+          <IconButton
+            onClick={() => {
+              router.push("/contact");
+            }}
+          >
+            <DiscordIcon />
+          </IconButton>
+        </Tooltip>
+        <a
+          className={classes.link}
+          href={SiteInfo.twitchLink}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <IconButton>
+            <TwitchIcon />
+          </IconButton>
+        </a>
+
         <a
           className={classes.link}
           href={SiteInfo.youtubeLink}

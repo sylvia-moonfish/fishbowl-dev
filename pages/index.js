@@ -8,12 +8,13 @@ import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 
+import TwitterIcon from "@material-ui/icons/Twitter";
+import YoutubeIcon from "@material-ui/icons/Youtube";
+
 import React from "react";
 
 import SiteInfo from "/data/site-info";
 import TwitchIcon from "/src/components/icons/twitch-icon";
-import TwitterIcon from "/src/components/icons/twitter-icon";
-import YoutubeIcon from "/src/components/icons/youtube-icon";
 import {
   generateFooter,
   generateHead,
@@ -33,13 +34,21 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+export async function getStaticProps(context) {
+  return {
+    props: {
+      hostname: process.env.HOSTNAME,
+    },
+  };
+}
+
 const index = (props) => {
   const classes = useStyles();
 
   return (
     <React.Fragment>
       {generateHead(SiteInfo.siteTitle, SiteInfo.siteDescription)}
-      {generatePreviewImage("/banner.png")}
+      {generatePreviewImage(`${props.hostname}/banner.png`)}
       <Grid container direction="column" spacing={5}>
         <Grid item>
           <Card>

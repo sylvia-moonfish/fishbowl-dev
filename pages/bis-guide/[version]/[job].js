@@ -2,6 +2,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Avatar from "@material-ui/core/Avatar";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import Chip from "@material-ui/core/Chip";
+import { blue } from "@material-ui/core/colors";
 import Container from "@material-ui/core/Container";
 import Dialog from "@material-ui/core/Dialog";
 import DialogContent from "@material-ui/core/DialogContent";
@@ -46,6 +47,9 @@ const useStyles = makeStyles((theme) => ({
     color: "inherit",
     cursor: "pointer",
     textDecoration: "none",
+  },
+  textLink: {
+    color: blue[500],
   },
   noMargin: {
     margin: 0,
@@ -103,6 +107,7 @@ export async function getStaticProps(context) {
       parentPageData: parentPageData,
       pageData: pageData,
       gearData: gearData,
+      hostname: process.env.HOSTNAME,
     },
   };
 }
@@ -131,7 +136,7 @@ const BisGuideJob = (props) => {
         `${props.pageData.pageTitle} | ${SiteInfo.siteTitle}`,
         props.pageData.pageDescription
       )}
-      {generatePreviewImage(props.pageData.banner)}
+      {generatePreviewImage(`${props.hostname}${props.pageData.banner}`)}
       <Grid container direction="column" spacing={5}>
         <Grid item>
           <Breadcrumbs>
@@ -182,9 +187,19 @@ const BisGuideJob = (props) => {
                 </Grid>
               </Grid>
               <Grid item>
-                <Typography variant="body1">
+                <Typography component="p" variant="body1">
                   {props.pageData.descriptionText}
                 </Typography>
+                <ul>
+                  <li>
+                    <Typography variant="body1">
+                      문의사항 및 오탈자 제보:{" "}
+                      <a className={classes.textLink} href="/contact">
+                        링크
+                      </a>
+                    </Typography>
+                  </li>
+                </ul>
               </Grid>
             </Grid>
           </Container>

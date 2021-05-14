@@ -42,7 +42,7 @@
     {
       "name": "몽크",
       "initial": "mnk",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "용기사",

@@ -68,6 +68,7 @@ export async function getStaticProps(context) {
     props: {
       jobs: jobs,
       pageData: pageData,
+      hostname: process.env.HOSTNAME,
     },
   };
 }
@@ -87,7 +88,7 @@ const BisGuide = (props) => {
         `${props.pageData.pageTitle} | ${SiteInfo.siteTitle}`,
         props.pageData.pageDescription
       )}
-      {generatePreviewImage(props.pageData.banners[0])}
+      {generatePreviewImage(`${props.hostname}${props.pageData.banners[0]}`)}
       <Container maxWidth="md">
         <Grid container direction="column" spacing={5}>
           <Grid item>
