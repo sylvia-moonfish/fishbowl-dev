@@ -9,12 +9,12 @@ import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 
 import TwitterIcon from "@material-ui/icons/Twitter";
-import YoutubeIcon from "@material-ui/icons/Youtube";
 
 import React from "react";
 
 import SiteInfo from "/data/site-info";
 import TwitchIcon from "/src/components/icons/twitch-icon";
+import YoutubeIcon from "/src/components/icons/youtube-icon";
 import {
   generateFooter,
   generateHead,

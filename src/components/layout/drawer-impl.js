@@ -7,7 +7,6 @@ import Tooltip from "@material-ui/core/Tooltip";
 import Typography from "@material-ui/core/Typography";
 
 import TwitterIcon from "@material-ui/icons/Twitter";
-import YoutubeIcon from "@material-ui/icons/Youtube";
 
 import React from "react";
 import { useRouter } from "next/router";
@@ -15,6 +14,7 @@ import { useRouter } from "next/router";
 import SiteInfo from "/data/site-info";
 import DiscordIcon from "/src/components/icons/discord-icon";
 import TwitchIcon from "/src/components/icons/twitch-icon";
+import YoutubeIcon from "/src/components/icons/youtube-icon";
 import DrawerList from "/src/components/layout/drawer-list";
 
 const useStyles = makeStyles((theme) => ({
