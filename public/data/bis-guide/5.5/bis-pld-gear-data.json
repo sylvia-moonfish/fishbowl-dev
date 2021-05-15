@@ -4394,7 +4394,7 @@
   },
   {
     "title": "절 난이도 BiS",
-    "description": "절 난이도 전용 BiS 리스트입니다.",
+    "description": "절 난이도 전용 BiS 리스트입니다. 레지스탕스 웨폰 패치 이전에는 5.5 BiS 무기나 해당 절 레이드 보상 무기를 사용하시면 됩니다.",
     "columnDefinitions": [
       {
         "printedName": "평균 DPS",

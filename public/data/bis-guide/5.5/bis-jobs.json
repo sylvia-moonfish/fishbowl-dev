@@ -47,7 +47,7 @@
     {
       "name": "용기사",
       "initial": "drg",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "닌자",
