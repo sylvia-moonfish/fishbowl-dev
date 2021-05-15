@@ -435,7 +435,7 @@ const BisGuideJob = (props) => {
                                                                 <Chip
                                                                   avatar={
                                                                     <Avatar
-                                                                      src={`/materia-slots/${
+                                                                      src={`/icons/materia-slots/${
                                                                         materiaIndex <
                                                                         gear.materiaSlots
                                                                           ? "blue"
