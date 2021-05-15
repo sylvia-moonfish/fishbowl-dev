@@ -11,18 +11,10 @@ export function generateHead(title, description) {
       <title key="title">{title}</title>
       <meta content={description} key="description" name="description" />
 
-      <meta content={title} key="og-title" property="og:title" />
-      <meta
-        content={description}
-        key="og-description"
-        property="og:description"
-      />
-      <meta content={title} key="twitter-title" name="twitter:title" />
-      <meta
-        content={description}
-        key="twitter-description"
-        name="twitter:description"
-      />
+      <meta content={title} property="og:title" />
+      <meta content={description} property="og:description" />
+      <meta content={title} name="twitter:title" />
+      <meta content={description} name="twitter:description" />
     </Head>
   );
 }
@@ -31,7 +23,7 @@ export function generatePreviewImage(url) {
   return (
     <Head>
       <meta content={url} property="og:image" />
-      <meta content={url} property="twitter:image" />
+      <meta content={url} name="twitter:image" />
     </Head>
   );
 }
