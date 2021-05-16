@@ -57,7 +57,7 @@
     {
       "name": "사무라이",
       "initial": "sam",
-      "enabled": false
+      "enabled": true
     }
   ],
   "physicalRanged": [

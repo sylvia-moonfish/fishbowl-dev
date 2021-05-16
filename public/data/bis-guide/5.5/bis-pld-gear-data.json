@@ -4527,7 +4527,71 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+334",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 334,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+334",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 334,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+166",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 166,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Augmented Law's Order Kite Shield",
@@ -4552,7 +4616,71 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+133",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 133,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+133",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 133,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+67",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 67,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Augmented Deepshadow Helm of Fending",
@@ -5377,7 +5505,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+227",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 227,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+227",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 227,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+227",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 227,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "불굴+153",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 153,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Augmented Law's Order Kite Shield",
@@ -5402,7 +5615,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+91",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 91,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+91",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 91,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+82",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 82,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "불굴+69",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 69,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Neo-Ishgardian Cap of Fending",
@@ -5905,7 +6203,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+200",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 200,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+200",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 200,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+200",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 200,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "불굴+200",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 200,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Augmented Law's Order Kite Shield",
@@ -5930,7 +6313,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+80",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 80,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+80",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 80,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+80",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 80,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "불굴+80",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 80,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Chivalrous Circlet +2",

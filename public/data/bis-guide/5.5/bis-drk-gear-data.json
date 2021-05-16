@@ -3622,7 +3622,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+466",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 466,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+465",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 465,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+171",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 171,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "불굴+65",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 65,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Augmented Deepshadow Helm of Fending",
@@ -4383,7 +4468,71 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+464",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 464,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+393",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 393,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+310",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 310,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Augmented Deepshadow Helm of Fending",
@@ -5208,7 +5357,71 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+467",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 467,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+467",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 467,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+233",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 233,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Augmented Deepshadow Helm of Fending",
@@ -5969,7 +6182,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+318",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 318,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+318",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 318,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+318",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 318,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "불굴+213",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 213,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Neo-Ishgardian Cap of Fending",
@@ -6407,7 +6705,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+318",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 318,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+318",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 318,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+318",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 318,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "불굴+213",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 213,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Neo-Ishgardian Cap of Fending",
@@ -6867,7 +7250,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 280,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 280,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 280,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "불굴+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 280,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Augmented Cryptlurker's Elmo of Fending",
@@ -7327,7 +7795,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 280,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 280,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 280,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "불굴+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 280,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Augmented Cryptlurker's Elmo of Fending",

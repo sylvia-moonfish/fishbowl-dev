@@ -425,33 +425,44 @@ const BisGuideJob = (props) => {
                                                               item
                                                               key={materiaIndex}
                                                             >
-                                                              <Tooltip
-                                                                title={
-                                                                  materia.nameKo
-                                                                    ? materia.nameKo
-                                                                    : materia.nameEn
-                                                                }
-                                                              >
-                                                                <Chip
-                                                                  avatar={
-                                                                    <Avatar
-                                                                      src={`/icons/materia-slots/${
-                                                                        materiaIndex <
-                                                                        gear.materiaSlots
-                                                                          ? "blue"
-                                                                          : "red"
-                                                                      }${
-                                                                        materia.materiaNumber
-                                                                      }.png`}
-                                                                    />
+                                                              {materia.nameEn ? (
+                                                                <Tooltip
+                                                                  title={
+                                                                    materia.nameKo
+                                                                      ? materia.nameKo
+                                                                      : materia.nameEn
                                                                   }
+                                                                >
+                                                                  <Chip
+                                                                    avatar={
+                                                                      <Avatar
+                                                                        src={`/icons/materia-slots/${
+                                                                          materiaIndex <
+                                                                          gear.materiaSlots
+                                                                            ? "blue"
+                                                                            : "red"
+                                                                        }${
+                                                                          materia.materiaNumber
+                                                                        }.png`}
+                                                                      />
+                                                                    }
+                                                                    label={
+                                                                      materia.shortName
+                                                                    }
+                                                                    size="small"
+                                                                    variant="outlined"
+                                                                  />
+                                                                </Tooltip>
+                                                              ) : (
+                                                                <Chip
                                                                   label={
                                                                     materia.shortName
                                                                   }
+                                                                  color="secondary"
                                                                   size="small"
                                                                   variant="outlined"
                                                                 />
-                                                              </Tooltip>
+                                                              )}
                                                             </Grid>
                                                           );
                                                         }

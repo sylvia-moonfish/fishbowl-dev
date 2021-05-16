@@ -1916,7 +1916,71 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+456",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 456,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "직격+453",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 453,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+258",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 258,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Shadowless Mask of Maiming",

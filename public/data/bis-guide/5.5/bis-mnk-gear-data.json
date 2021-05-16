@@ -1797,7 +1797,7 @@
   },
   {
     "title": "절 난이도 BiS",
-    "description": "절 난이도 전용 BiS 리스트입니다. 레지스탕스 웨폰 패치 이후에는 극대, 직격, 의지에 스탯이 분배된 레지스탕스 웨폰을 사용하시면 됩니다.",
+    "description": "절 난이도 전용 BiS 리스트입니다. 레지스탕스 웨폰 패치 이전에는 5.5 BiS 무기나 해당 절 레이드 보상 무기를 사용하시면 됩니다.",
     "columnDefinitions": [
       {
         "printedName": "평균 DPS",
@@ -1862,15 +1862,15 @@
           "dex": 0,
           "int": 0,
           "mnd": 0,
-          "ch": 3438,
-          "dh": 2480,
-          "det": 1943,
+          "ch": 3746,
+          "dh": 2271,
+          "det": 2016,
           "sks": 914,
           "sps": 0,
           "ten": 0,
           "pie": 0
         },
-        "dps": 14570.48,
+        "dps": 14719.19,
         "hps": 0.0,
         "mpRegen": 184,
         "gcd": 2.44,
@@ -1899,28 +1899,28 @@
             "pie": null
           }
         },
-        "ch": 23.5,
-        "dh": 35.0,
+        "ch": 25.4,
+        "dh": 31.5,
         "ten": -1.2,
         "gears": [
           {
-            "nameEn": "Edengrace Knuckles",
-            "nameKo": "에덴의 은총 너클",
-            "iconSrc": "/icons/items/edengrace-knuckles.png",
+            "nameEn": "Augmented Law's Order Knuckles",
+            "nameKo": null,
+            "iconSrc": "/icons/items/augmented-laws-order-knuckles.png",
             "type": "무기",
-            "from": "영웅 레이드",
-            "required": "4층 낱장 x 8",
-            "materiaSlots": 2,
+            "from": "레지스탕스 웨폰",
+            "required": "레지스탕스 웨폰",
+            "materiaSlots": 0,
             "overmeldSlots": 0,
             "attribute": {
-              "wd": 122,
-              "str": 544,
+              "wd": 130,
+              "str": 668,
               "dex": 0,
               "int": 0,
               "mnd": 0,
-              "ch": 467,
+              "ch": 0,
               "dh": 0,
-              "det": 327,
+              "det": 0,
               "sks": 0,
               "sps": 0,
               "ten": 0,
@@ -1928,19 +1928,19 @@
             },
             "materias": [
               {
-                "nameEn": "Heavens' Eye Materia VIII",
-                "nameKo": "심안의 엑스마테리쟈",
-                "shortName": "직격+60",
-                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
-                "materiaNumber": 8,
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+461",
+                "iconSrc": null,
+                "materiaNumber": -1,
                 "attribute": {
                   "wd": 0,
                   "str": 0,
                   "dex": 0,
                   "int": 0,
                   "mnd": 0,
-                  "ch": 0,
-                  "dh": 60,
+                  "ch": 461,
+                  "dh": 0,
                   "det": 0,
                   "sks": 0,
                   "sps": 0,
@@ -1949,11 +1949,11 @@
                 }
               },
               {
-                "nameEn": "Heavens' Eye Materia VIII",
-                "nameKo": "심안의 엑스마테리쟈",
-                "shortName": "직격+60",
-                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
-                "materiaNumber": 8,
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "직격+243",
+                "iconSrc": null,
+                "materiaNumber": -1,
                 "attribute": {
                   "wd": 0,
                   "str": 0,
@@ -1961,8 +1961,29 @@
                   "int": 0,
                   "mnd": 0,
                   "ch": 0,
-                  "dh": 60,
+                  "dh": 243,
                   "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+463",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 463,
                   "sks": 0,
                   "sps": 0,
                   "ten": 0,
@@ -2017,10 +2038,10 @@
                 }
               },
               {
-                "nameEn": "Heavens' Eye Materia VIII",
-                "nameKo": "심안의 엑스마테리쟈",
-                "shortName": "직격+60",
-                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
                 "materiaNumber": 8,
                 "attribute": {
                   "wd": 0,
@@ -2029,8 +2050,8 @@
                   "int": 0,
                   "mnd": 0,
                   "ch": 0,
-                  "dh": 60,
-                  "det": 0,
+                  "dh": 0,
+                  "det": 60,
                   "sks": 0,
                   "sps": 0,
                   "ten": 0,
@@ -2040,72 +2061,29 @@
             ]
           },
           {
-            "nameEn": "Shadowless Coat of Striking",
-            "nameKo": "무영 타격대 외투",
-            "iconSrc": "/icons/items/shadowless-coat-of-striking.png",
+            "nameEn": "Edenmorn Bolero of Striking",
+            "nameKo": null,
+            "iconSrc": "/icons/items/edenmorn-bolero-of-striking.png",
             "type": "몸통",
-            "from": "던전",
-            "required": "던전",
+            "from": "영웅 레이드",
+            "required": "4층 낱장 x 8",
             "materiaSlots": 2,
             "overmeldSlots": 0,
             "attribute": {
               "wd": 0,
-              "str": 505,
+              "str": 671,
               "dex": 0,
               "int": 0,
               "mnd": 0,
-              "ch": 0,
-              "dh": 434,
-              "det": 304,
+              "ch": 489,
+              "dh": 342,
+              "det": 0,
               "sks": 0,
               "sps": 0,
               "ten": 0,
               "pie": 0
             },
-            "materias": [
-              {
-                "nameEn": "Savage Aim Materia VIII",
-                "nameKo": "무략의 엑스마테리쟈",
-                "shortName": "극대+60",
-                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
-                "materiaNumber": 8,
-                "attribute": {
-                  "wd": 0,
-                  "str": 0,
-                  "dex": 0,
-                  "int": 0,
-                  "mnd": 0,
-                  "ch": 60,
-                  "dh": 0,
-                  "det": 0,
-                  "sks": 0,
-                  "sps": 0,
-                  "ten": 0,
-                  "pie": 0
-                }
-              },
-              {
-                "nameEn": "Savage Aim Materia VIII",
-                "nameKo": "무략의 엑스마테리쟈",
-                "shortName": "극대+60",
-                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
-                "materiaNumber": 8,
-                "attribute": {
-                  "wd": 0,
-                  "str": 0,
-                  "dex": 0,
-                  "int": 0,
-                  "mnd": 0,
-                  "ch": 60,
-                  "dh": 0,
-                  "det": 0,
-                  "sks": 0,
-                  "sps": 0,
-                  "ten": 0,
-                  "pie": 0
-                }
-              }
-            ]
+            "materias": []
           },
           {
             "nameEn": "Shadowless Gloves of Striking",
@@ -2153,10 +2131,10 @@
                 }
               },
               {
-                "nameEn": "Heavens' Eye Materia VIII",
-                "nameKo": "심안의 엑스마테리쟈",
-                "shortName": "직격+60",
-                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
                 "materiaNumber": 8,
                 "attribute": {
                   "wd": 0,
@@ -2165,8 +2143,8 @@
                   "int": 0,
                   "mnd": 0,
                   "ch": 0,
-                  "dh": 60,
-                  "det": 0,
+                  "dh": 0,
+                  "det": 60,
                   "sks": 0,
                   "sps": 0,
                   "ten": 0,
@@ -2221,10 +2199,10 @@
                 }
               },
               {
-                "nameEn": "Heavens' Eye Materia VIII",
-                "nameKo": "심안의 엑스마테리쟈",
-                "shortName": "직격+60",
-                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
                 "materiaNumber": 8,
                 "attribute": {
                   "wd": 0,
@@ -2233,8 +2211,8 @@
                   "int": 0,
                   "mnd": 0,
                   "ch": 0,
-                  "dh": 60,
-                  "det": 0,
+                  "dh": 0,
+                  "det": 60,
                   "sks": 0,
                   "sps": 0,
                   "ten": 0,
@@ -2382,10 +2360,10 @@
                 }
               },
               {
-                "nameEn": "Heavens' Eye Materia VIII",
-                "nameKo": "심안의 엑스마테리쟈",
-                "shortName": "직격+60",
-                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
                 "materiaNumber": 8,
                 "attribute": {
                   "wd": 0,
@@ -2394,8 +2372,8 @@
                   "int": 0,
                   "mnd": 0,
                   "ch": 0,
-                  "dh": 60,
-                  "det": 0,
+                  "dh": 0,
+                  "det": 60,
                   "sks": 0,
                   "sps": 0,
                   "ten": 0,
@@ -2751,7 +2729,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+318",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 318,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "직격+318",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 318,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+318",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 318,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+213",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 213,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Alliance Visor of Striking",
@@ -3189,7 +3252,92 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 280,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "직격+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 280,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 280,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "기시+280",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 280,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Pacifist's Circlet +2",

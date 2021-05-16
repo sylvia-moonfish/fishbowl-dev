@@ -1058,7 +1058,71 @@
               "ten": 0,
               "pie": 0
             },
-            "materias": []
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+467",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 467,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "직격+448",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 448,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+252",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 252,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
           },
           {
             "nameEn": "Shadowless Mask of Scouting",
