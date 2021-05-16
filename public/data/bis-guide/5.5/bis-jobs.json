@@ -52,7 +52,7 @@
     {
       "name": "닌자",
       "initial": "nin",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "사무라이",
