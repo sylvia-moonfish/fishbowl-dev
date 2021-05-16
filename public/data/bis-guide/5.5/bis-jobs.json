@@ -64,17 +64,17 @@
     {
       "name": "음유시인",
       "initial": "brd",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "기공사",
       "initial": "mch",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "무도가",
       "initial": "dnc",
-      "enabled": false
+      "enabled": true
     }
   ],
   "magicalRanged": [
