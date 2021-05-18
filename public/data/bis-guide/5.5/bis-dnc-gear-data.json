@@ -77,10 +77,10 @@
         "hutonGcd": 2.12,
         "shifuGcd": 2.17,
         "rotation": 0,
-        "mealName": "Smoked Chicken",
+        "mealName": "훈제 치킨",
         "meal": {
           "nameEn": "Smoked Chicken",
-          "nameKo": null,
+          "nameKo": "훈제 치킨",
           "iconSrc": "/icons/items/hq/smoked-chicken.png",
           "mealAttribute": {
             "ch": {
@@ -104,7 +104,7 @@
         "gears": [
           {
             "nameEn": "Edenmorn Chakrams",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 차크람",
             "iconSrc": "/icons/items/edenmorn-chakrams.png",
             "type": "무기",
             "from": "영웅 레이드",
@@ -172,7 +172,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Helm of Aiming",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 유격대 투구",
             "iconSrc": "/icons/items/augmented-cryptlurkers-helm-of-aiming.png",
             "type": "머리",
             "from": "석판 보강",
@@ -240,7 +240,7 @@
           },
           {
             "nameEn": "Edenmorn Coat of Aiming",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 유격대 외투",
             "iconSrc": "/icons/items/edenmorn-coat-of-aiming.png",
             "type": "몸통",
             "from": "영웅 레이드",
@@ -308,7 +308,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Vambraces of Aiming",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 유격대 완갑",
             "iconSrc": "/icons/items/augmented-cryptlurkers-vambraces-of-aiming.png",
             "type": "손",
             "from": "석판 보강",
@@ -376,7 +376,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Belt of Aiming",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 유격대 허리띠",
             "iconSrc": "/icons/items/augmented-cryptlurkers-belt-of-aiming.png",
             "type": "허리",
             "from": "석판 보강",
@@ -444,7 +444,7 @@
           },
           {
             "nameEn": "Edenmorn Hose of Aiming",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 유격대 기마바지",
             "iconSrc": "/icons/items/edenmorn-hose-of-aiming.png",
             "type": "다리",
             "from": "영웅 레이드",
@@ -512,7 +512,7 @@
           },
           {
             "nameEn": "Edenmorn Sabatons of Aiming",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 유격대 판금장화",
             "iconSrc": "/icons/items/edenmorn-sabatons-of-aiming.png",
             "type": "발",
             "from": "영웅 레이드",
@@ -580,7 +580,7 @@
           },
           {
             "nameEn": "Edenmorn Earrings of Aiming",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 유격대 귀걸이",
             "iconSrc": "/icons/items/edenmorn-earrings-of-aiming.png",
             "type": "귀걸이",
             "from": "영웅 레이드",
@@ -648,7 +648,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Aiming",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 유격대 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-aiming.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -716,7 +716,7 @@
           },
           {
             "nameEn": "Edenmorn Wristlet of Aiming",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 유격대 손목장식",
             "iconSrc": "/icons/items/edenmorn-wristlet-of-aiming.png",
             "type": "팔찌",
             "from": "영웅 레이드",
@@ -784,7 +784,7 @@
           },
           {
             "nameEn": "Edenmorn Ring of Aiming",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 유격대 반지",
             "iconSrc": "/icons/items/edenmorn-ring-of-aiming.png",
             "type": "반지",
             "from": "영웅 레이드",
@@ -852,7 +852,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Ring of Aiming",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 유격대 반지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-aiming.png",
             "type": "반지",
             "from": "석판 보강",
@@ -1000,10 +1000,10 @@
         "hutonGcd": 2.12,
         "shifuGcd": 2.17,
         "rotation": 0,
-        "mealName": "Smoked Chicken",
+        "mealName": "훈제 치킨",
         "meal": {
           "nameEn": "Smoked Chicken",
-          "nameKo": null,
+          "nameKo": "훈제 치킨",
           "iconSrc": "/icons/items/hq/smoked-chicken.png",
           "mealAttribute": {
             "ch": {

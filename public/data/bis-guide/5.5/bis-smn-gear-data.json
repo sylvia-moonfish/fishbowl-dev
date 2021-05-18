@@ -77,10 +77,10 @@
         "hutonGcd": 2.1,
         "shifuGcd": 2.15,
         "rotation": 0,
-        "mealName": "Smoked Chicken",
+        "mealName": "훈제 치킨",
         "meal": {
           "nameEn": "Smoked Chicken",
-          "nameKo": null,
+          "nameKo": "훈제 치킨",
           "iconSrc": "/icons/items/hq/smoked-chicken.png",
           "mealAttribute": {
             "ch": {
@@ -104,7 +104,7 @@
         "gears": [
           {
             "nameEn": "Edenmorn Index",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 금서",
             "iconSrc": "/icons/items/edenmorn-index.png",
             "type": "무기",
             "from": "영웅 레이드",
@@ -172,7 +172,7 @@
           },
           {
             "nameEn": "Edenmorn Hat of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 모자",
             "iconSrc": "/icons/items/edenmorn-hat-of-casting.png",
             "type": "머리",
             "from": "영웅 레이드",
@@ -240,7 +240,7 @@
           },
           {
             "nameEn": "Edenmorn Gown of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 덧옷",
             "iconSrc": "/icons/items/edenmorn-gown-of-casting.png",
             "type": "몸통",
             "from": "영웅 레이드",
@@ -308,7 +308,7 @@
           },
           {
             "nameEn": "Edenmorn Dress Sleeves of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 예식 토시",
             "iconSrc": "/icons/items/edenmorn-dress-sleeves-of-casting.png",
             "type": "손",
             "from": "영웅 레이드",
@@ -376,7 +376,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Belt of Casting",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 마술사 허리띠",
             "iconSrc": "/icons/items/augmented-cryptlurkers-belt-of-casting.png",
             "type": "허리",
             "from": "석판 보강",
@@ -444,7 +444,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Chausses of Casting",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 마술사 조임바지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-chausses-of-casting.png",
             "type": "다리",
             "from": "석판 보강",
@@ -512,7 +512,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Shoes of Casting",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 마술사 신발",
             "iconSrc": "/icons/items/augmented-cryptlurkers-shoes-of-casting.png",
             "type": "발",
             "from": "석판 보강",
@@ -580,7 +580,7 @@
           },
           {
             "nameEn": "Edenmorn Earrings of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 귀걸이",
             "iconSrc": "/icons/items/edenmorn-earrings-of-casting.png",
             "type": "귀걸이",
             "from": "영웅 레이드",
@@ -648,7 +648,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-casting.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -716,7 +716,7 @@
           },
           {
             "nameEn": "Edenmorn Wristlet of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 손목장식",
             "iconSrc": "/icons/items/edenmorn-wristlet-of-casting.png",
             "type": "팔찌",
             "from": "영웅 레이드",
@@ -784,7 +784,7 @@
           },
           {
             "nameEn": "Edenmorn Ring of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 반지",
             "iconSrc": "/icons/items/edenmorn-ring-of-casting.png",
             "type": "반지",
             "from": "영웅 레이드",
@@ -852,7 +852,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Ring of Casting",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 마술사 반지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-casting.png",
             "type": "반지",
             "from": "석판 보강",
@@ -945,10 +945,10 @@
         "hutonGcd": 2.12,
         "shifuGcd": 2.17,
         "rotation": 0,
-        "mealName": "Smoked Chicken",
+        "mealName": "훈제 치킨",
         "meal": {
           "nameEn": "Smoked Chicken",
-          "nameKo": null,
+          "nameKo": "훈제 치킨",
           "iconSrc": "/icons/items/hq/smoked-chicken.png",
           "mealAttribute": {
             "ch": {
@@ -972,7 +972,7 @@
         "gears": [
           {
             "nameEn": "Edenmorn Index",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 금서",
             "iconSrc": "/icons/items/edenmorn-index.png",
             "type": "무기",
             "from": "영웅 레이드",
@@ -1040,7 +1040,7 @@
           },
           {
             "nameEn": "Edenmorn Hat of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 모자",
             "iconSrc": "/icons/items/edenmorn-hat-of-casting.png",
             "type": "머리",
             "from": "영웅 레이드",
@@ -1108,7 +1108,7 @@
           },
           {
             "nameEn": "Edenmorn Gown of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 덧옷",
             "iconSrc": "/icons/items/edenmorn-gown-of-casting.png",
             "type": "몸통",
             "from": "영웅 레이드",
@@ -1176,7 +1176,7 @@
           },
           {
             "nameEn": "Edenmorn Dress Sleeves of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 예식 토시",
             "iconSrc": "/icons/items/edenmorn-dress-sleeves-of-casting.png",
             "type": "손",
             "from": "영웅 레이드",
@@ -1244,7 +1244,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Belt of Casting",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 마술사 허리띠",
             "iconSrc": "/icons/items/augmented-cryptlurkers-belt-of-casting.png",
             "type": "허리",
             "from": "석판 보강",
@@ -1312,7 +1312,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Chausses of Casting",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 마술사 조임바지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-chausses-of-casting.png",
             "type": "다리",
             "from": "석판 보강",
@@ -1380,7 +1380,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Shoes of Casting",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 마술사 신발",
             "iconSrc": "/icons/items/augmented-cryptlurkers-shoes-of-casting.png",
             "type": "발",
             "from": "석판 보강",
@@ -1448,7 +1448,7 @@
           },
           {
             "nameEn": "Edenmorn Earrings of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 귀걸이",
             "iconSrc": "/icons/items/edenmorn-earrings-of-casting.png",
             "type": "귀걸이",
             "from": "영웅 레이드",
@@ -1516,7 +1516,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-casting.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -1584,7 +1584,7 @@
           },
           {
             "nameEn": "Edenmorn Wristlet of Casting",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 마술사 손목장식",
             "iconSrc": "/icons/items/edenmorn-wristlet-of-casting.png",
             "type": "팔찌",
             "from": "영웅 레이드",
@@ -1652,7 +1652,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Ring of Casting",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 마술사 반지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-casting.png",
             "type": "반지",
             "from": "석판 보강",
@@ -1720,7 +1720,7 @@
           },
           {
             "nameEn": "Cryptlurker's Ring of Casting",
-            "nameKo": null,
+            "nameKo": "지하매복자 마술사 반지",
             "iconSrc": "/icons/items/cryptlurkers-ring-of-casting.png",
             "type": "반지",
             "from": "석판",
@@ -1868,10 +1868,10 @@
         "hutonGcd": 2.11,
         "shifuGcd": 2.16,
         "rotation": 0,
-        "mealName": "Smoked Chicken",
+        "mealName": "훈제 치킨",
         "meal": {
           "nameEn": "Smoked Chicken",
-          "nameKo": null,
+          "nameKo": "훈제 치킨",
           "iconSrc": "/icons/items/hq/smoked-chicken.png",
           "mealAttribute": {
             "ch": {

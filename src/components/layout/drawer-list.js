@@ -18,6 +18,10 @@ import { useRouter } from "next/router";
 import React from "react";
 
 const useStyles = makeStyles((theme) => ({
+  link: {
+    color: "inherit",
+    textDecoration: "none",
+  },
   nested: {
     paddingLeft: theme.spacing(4),
   },
@@ -63,6 +67,24 @@ const DrawerList = (props) => {
             <Avatar src="/icons/job-guide.png" />
           </ListItemAvatar>
           <ListItemText primary="5.5 BiS 가이드" />
+        </ListItem>
+        <Divider />
+        <ListSubheader component="div">공략 &amp; 팁</ListSubheader>
+        <ListItem
+          button
+          onClick={() => {
+            if (window !== undefined) {
+              window.open(
+                "https://youtube.com/playlist?list=PLaD-EPHYB6mzru3_df7OfNWyw5Hal30mk",
+                "_blank"
+              );
+            }
+          }}
+        >
+          <ListItemAvatar>
+            <Avatar src="/icons/jobs/tank.png" variant="square" />
+          </ListItemAvatar>
+          <ListItemText primary="[탱팁] 재생 영식" secondary="" />
         </ListItem>
         <Divider />
         <ListSubheader component="div">아카이브</ListSubheader>

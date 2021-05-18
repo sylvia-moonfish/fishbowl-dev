@@ -86,10 +86,10 @@
         "hutonGcd": 2.05,
         "shifuGcd": 2.1,
         "rotation": 0,
-        "mealName": "Chicken Fettuccine",
+        "mealName": "치킨 페투치네",
         "meal": {
           "nameEn": "Chicken Fettuccine",
-          "nameKo": null,
+          "nameKo": "치킨 페투치네",
           "iconSrc": "/icons/items/hq/chicken-fettuccine.png",
           "mealAttribute": {
             "ch": {
@@ -113,7 +113,7 @@
         "gears": [
           {
             "nameEn": "Edenmorn Gunblade",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 건블레이드",
             "iconSrc": "/icons/items/edenmorn-gunblade.png",
             "type": "무기",
             "from": "영웅 레이드",
@@ -181,7 +181,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Elmo of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 기사투구",
             "iconSrc": "/icons/items/augmented-cryptlurkers-elmo-of-fending.png",
             "type": "머리",
             "from": "석판 보강",
@@ -249,7 +249,7 @@
           },
           {
             "nameEn": "Edenmorn Coat of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 외투",
             "iconSrc": "/icons/items/edenmorn-coat-of-fending.png",
             "type": "몸통",
             "from": "영웅 레이드",
@@ -317,7 +317,7 @@
           },
           {
             "nameEn": "Edenmorn Armguards of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 팔보호구",
             "iconSrc": "/icons/items/edenmorn-armguards-of-fending.png",
             "type": "손",
             "from": "영웅 레이드",
@@ -385,7 +385,7 @@
           },
           {
             "nameEn": "Edenmorn Leather Belt of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 가죽 허리띠",
             "iconSrc": "/icons/items/edenmorn-leather-belt-of-fending.png",
             "type": "허리",
             "from": "영웅 레이드",
@@ -453,7 +453,7 @@
           },
           {
             "nameEn": "Edenmorn Hose of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 기마바지",
             "iconSrc": "/icons/items/edenmorn-hose-of-fending.png",
             "type": "다리",
             "from": "영웅 레이드",
@@ -521,7 +521,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Sollerets of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 쇠구두",
             "iconSrc": "/icons/items/augmented-cryptlurkers-sollerets-of-fending.png",
             "type": "발",
             "from": "석판 보강",
@@ -589,7 +589,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Earring of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 귀걸이",
             "iconSrc": "/icons/items/augmented-cryptlurkers-earring-of-fending.png",
             "type": "귀걸이",
             "from": "석판 보강",
@@ -657,7 +657,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-fending.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -725,7 +725,7 @@
           },
           {
             "nameEn": "Edenmorn Wristlet of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 손목장식",
             "iconSrc": "/icons/items/edenmorn-wristlet-of-fending.png",
             "type": "팔찌",
             "from": "영웅 레이드",
@@ -793,7 +793,7 @@
           },
           {
             "nameEn": "Edenmorn Ring of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 반지",
             "iconSrc": "/icons/items/edenmorn-ring-of-fending.png",
             "type": "반지",
             "from": "영웅 레이드",
@@ -861,7 +861,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Ring of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 반지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-fending.png",
             "type": "반지",
             "from": "석판 보강",
@@ -954,10 +954,10 @@
         "hutonGcd": 2.04,
         "shifuGcd": 2.09,
         "rotation": 0,
-        "mealName": "Chicken Fettuccine",
+        "mealName": "치킨 페투치네",
         "meal": {
           "nameEn": "Chicken Fettuccine",
-          "nameKo": null,
+          "nameKo": "치킨 페투치네",
           "iconSrc": "/icons/items/hq/chicken-fettuccine.png",
           "mealAttribute": {
             "ch": {
@@ -981,7 +981,7 @@
         "gears": [
           {
             "nameEn": "Edenmorn Gunblade",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 건블레이드",
             "iconSrc": "/icons/items/edenmorn-gunblade.png",
             "type": "무기",
             "from": "영웅 레이드",
@@ -1049,7 +1049,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Elmo of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 기사투구",
             "iconSrc": "/icons/items/augmented-cryptlurkers-elmo-of-fending.png",
             "type": "머리",
             "from": "석판 보강",
@@ -1117,7 +1117,7 @@
           },
           {
             "nameEn": "Edenmorn Coat of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 외투",
             "iconSrc": "/icons/items/edenmorn-coat-of-fending.png",
             "type": "몸통",
             "from": "영웅 레이드",
@@ -1185,7 +1185,7 @@
           },
           {
             "nameEn": "Edenmorn Armguards of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 팔보호구",
             "iconSrc": "/icons/items/edenmorn-armguards-of-fending.png",
             "type": "손",
             "from": "영웅 레이드",
@@ -1253,7 +1253,7 @@
           },
           {
             "nameEn": "Edenmorn Leather Belt of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 가죽 허리띠",
             "iconSrc": "/icons/items/edenmorn-leather-belt-of-fending.png",
             "type": "허리",
             "from": "영웅 레이드",
@@ -1321,7 +1321,7 @@
           },
           {
             "nameEn": "Edenmorn Hose of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 기마바지",
             "iconSrc": "/icons/items/edenmorn-hose-of-fending.png",
             "type": "다리",
             "from": "영웅 레이드",
@@ -1389,7 +1389,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Sollerets of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 쇠구두",
             "iconSrc": "/icons/items/augmented-cryptlurkers-sollerets-of-fending.png",
             "type": "발",
             "from": "석판 보강",
@@ -1457,7 +1457,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Earring of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 귀걸이",
             "iconSrc": "/icons/items/augmented-cryptlurkers-earring-of-fending.png",
             "type": "귀걸이",
             "from": "석판 보강",
@@ -1525,7 +1525,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-fending.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -1593,7 +1593,7 @@
           },
           {
             "nameEn": "Edenmorn Wristlet of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 손목장식",
             "iconSrc": "/icons/items/edenmorn-wristlet-of-fending.png",
             "type": "팔찌",
             "from": "영웅 레이드",
@@ -1661,7 +1661,7 @@
           },
           {
             "nameEn": "Edenmorn Ring of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 반지",
             "iconSrc": "/icons/items/edenmorn-ring-of-fending.png",
             "type": "반지",
             "from": "영웅 레이드",
@@ -1729,7 +1729,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Ring of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 반지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-fending.png",
             "type": "반지",
             "from": "석판 보강",
@@ -1886,10 +1886,10 @@
         "hutonGcd": 2.04,
         "shifuGcd": 2.09,
         "rotation": 0,
-        "mealName": "Chicken Fettuccine",
+        "mealName": "치킨 페투치네",
         "meal": {
           "nameEn": "Chicken Fettuccine",
-          "nameKo": null,
+          "nameKo": "치킨 페투치네",
           "iconSrc": "/icons/items/hq/chicken-fettuccine.png",
           "mealAttribute": {
             "ch": {
@@ -2775,10 +2775,10 @@
         "hutonGcd": 2.04,
         "shifuGcd": 2.09,
         "rotation": 0,
-        "mealName": "Chicken Fettuccine",
+        "mealName": "치킨 페투치네",
         "meal": {
           "nameEn": "Chicken Fettuccine",
-          "nameKo": null,
+          "nameKo": "치킨 페투치네",
           "iconSrc": "/icons/items/hq/chicken-fettuccine.png",
           "mealAttribute": {
             "ch": {
@@ -3073,7 +3073,7 @@
           },
           {
             "nameEn": "Edenmorn Leather Belt of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 가죽 허리띠",
             "iconSrc": "/icons/items/edenmorn-leather-belt-of-fending.png",
             "type": "허리",
             "from": "영웅 레이드",
@@ -3098,7 +3098,7 @@
           },
           {
             "nameEn": "Edenmorn Hose of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 기마바지",
             "iconSrc": "/icons/items/edenmorn-hose-of-fending.png",
             "type": "다리",
             "from": "영웅 레이드",
@@ -3191,7 +3191,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Earring of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 귀걸이",
             "iconSrc": "/icons/items/augmented-cryptlurkers-earring-of-fending.png",
             "type": "귀걸이",
             "from": "석판 보강",
@@ -3216,7 +3216,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-fending.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -3241,7 +3241,7 @@
           },
           {
             "nameEn": "Exarchic Bracelet of Fending",
-            "nameKo": null,
+            "nameKo": "수정공 수호자 팔찌",
             "iconSrc": "/icons/items/hq/exarchic-bracelet-of-fending.png",
             "type": "팔찌",
             "from": "제작",
@@ -3266,7 +3266,7 @@
           },
           {
             "nameEn": "Exarchic Ring of Fending",
-            "nameKo": null,
+            "nameKo": "수정공 수호자 반지",
             "iconSrc": "/icons/items/hq/exarchic-ring-of-fending.png",
             "type": "반지",
             "from": "제작",
@@ -3291,7 +3291,7 @@
           },
           {
             "nameEn": "Edenmorn Ring of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 반지",
             "iconSrc": "/icons/items/edenmorn-ring-of-fending.png",
             "type": "반지",
             "from": "영웅 레이드",
@@ -3341,10 +3341,10 @@
         "hutonGcd": 2.04,
         "shifuGcd": 2.09,
         "rotation": 0,
-        "mealName": "Smoked Chicken",
+        "mealName": "훈제 치킨",
         "meal": {
           "nameEn": "Smoked Chicken",
-          "nameKo": null,
+          "nameKo": "훈제 치킨",
           "iconSrc": "/icons/items/hq/smoked-chicken.png",
           "mealAttribute": {
             "ch": {
@@ -3478,7 +3478,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Elmo of Fending",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 수호자 기사투구",
             "iconSrc": "/icons/items/augmented-cryptlurkers-elmo-of-fending.png",
             "type": "머리",
             "from": "석판 보강",
@@ -3503,7 +3503,7 @@
           },
           {
             "nameEn": "Edenmorn Coat of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 외투",
             "iconSrc": "/icons/items/edenmorn-coat-of-fending.png",
             "type": "몸통",
             "from": "영웅 레이드",
@@ -3621,7 +3621,7 @@
           },
           {
             "nameEn": "Edenmorn Hose of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 기마바지",
             "iconSrc": "/icons/items/edenmorn-hose-of-fending.png",
             "type": "다리",
             "from": "영웅 레이드",
@@ -3714,7 +3714,7 @@
           },
           {
             "nameEn": "Exarchic Earrings of Fending",
-            "nameKo": null,
+            "nameKo": "수정공 수호자 귀걸이",
             "iconSrc": "/icons/items/hq/exarchic-earrings-of-fending.png",
             "type": "귀걸이",
             "from": "제작",
@@ -3739,7 +3739,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-fending.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -3764,7 +3764,7 @@
           },
           {
             "nameEn": "Exarchic Bracelet of Fending",
-            "nameKo": null,
+            "nameKo": "수정공 수호자 팔찌",
             "iconSrc": "/icons/items/hq/exarchic-bracelet-of-fending.png",
             "type": "팔찌",
             "from": "제작",
@@ -3789,7 +3789,7 @@
           },
           {
             "nameEn": "Exarchic Ring of Fending",
-            "nameKo": null,
+            "nameKo": "수정공 수호자 반지",
             "iconSrc": "/icons/items/hq/exarchic-ring-of-fending.png",
             "type": "반지",
             "from": "제작",
@@ -3814,7 +3814,7 @@
           },
           {
             "nameEn": "Edenmorn Ring of Fending",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 수호자 반지",
             "iconSrc": "/icons/items/edenmorn-ring-of-fending.png",
             "type": "반지",
             "from": "영웅 레이드",

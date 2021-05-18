@@ -87,10 +87,10 @@
         "hutonGcd": 2.09,
         "shifuGcd": 2.14,
         "rotation": 28,
-        "mealName": "Smoked Chicken",
+        "mealName": "훈제 치킨",
         "meal": {
           "nameEn": "Smoked Chicken",
-          "nameKo": null,
+          "nameKo": "훈제 치킨",
           "iconSrc": "/icons/items/hq/smoked-chicken.png",
           "mealAttribute": {
             "ch": {
@@ -114,7 +114,7 @@
         "gears": [
           {
             "nameEn": "Edenmorn Samurai Blade",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 외날검",
             "iconSrc": "/icons/items/edenmorn-samurai-blade.png",
             "type": "무기",
             "from": "영웅 레이드",
@@ -182,7 +182,7 @@
           },
           {
             "nameEn": "Edenmorn Eye Mask of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 눈가리개 ",
             "iconSrc": "/icons/items/edenmorn-eye-mask-of-striking.png",
             "type": "머리",
             "from": "영웅 레이드",
@@ -250,7 +250,7 @@
           },
           {
             "nameEn": "Edenmorn Bolero of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 볼레로",
             "iconSrc": "/icons/items/edenmorn-bolero-of-striking.png",
             "type": "몸통",
             "from": "영웅 레이드",
@@ -318,7 +318,7 @@
           },
           {
             "nameEn": "Edenmorn Fingerless Gloves of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 반장갑",
             "iconSrc": "/icons/items/edenmorn-fingerless-gloves-of-striking.png",
             "type": "손",
             "from": "영웅 레이드",
@@ -386,7 +386,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Belt of Striking",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 타격대 허리띠",
             "iconSrc": "/icons/items/augmented-cryptlurkers-belt-of-striking.png",
             "type": "허리",
             "from": "석판 보강",
@@ -454,7 +454,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Hose of Striking",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 타격대 기마바지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-hose-of-striking.png",
             "type": "다리",
             "from": "석판 보강",
@@ -522,7 +522,7 @@
           },
           {
             "nameEn": "Edenmorn Thighboots of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 허벅지장화",
             "iconSrc": "/icons/items/edenmorn-thighboots-of-striking.png",
             "type": "발",
             "from": "영웅 레이드",
@@ -590,7 +590,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Earring of Slaying",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 공격대 귀걸이",
             "iconSrc": "/icons/items/augmented-cryptlurkers-earring-of-slaying.png",
             "type": "귀걸이",
             "from": "석판 보강",
@@ -658,7 +658,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Slaying",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 공격대 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-slaying.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -726,7 +726,7 @@
           },
           {
             "nameEn": "Edenmorn Wristlet of Slaying",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 공격대 손목장식",
             "iconSrc": "/icons/items/edenmorn-wristlet-of-slaying.png",
             "type": "팔찌",
             "from": "영웅 레이드",
@@ -794,7 +794,7 @@
           },
           {
             "nameEn": "Edenmorn Ring of Slaying",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 공격대 반지",
             "iconSrc": "/icons/items/edenmorn-ring-of-slaying.png",
             "type": "반지",
             "from": "영웅 레이드",
@@ -862,7 +862,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Ring of Slaying",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 공격대 반지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-slaying.png",
             "type": "반지",
             "from": "석판 보강",
@@ -955,10 +955,10 @@
         "hutonGcd": 1.96,
         "shifuGcd": 2.0,
         "rotation": 30,
-        "mealName": "Chicken Fettuccine",
+        "mealName": "치킨 페투치네",
         "meal": {
           "nameEn": "Chicken Fettuccine",
-          "nameKo": null,
+          "nameKo": "치킨 페투치네",
           "iconSrc": "/icons/items/hq/chicken-fettuccine.png",
           "mealAttribute": {
             "ch": {
@@ -982,7 +982,7 @@
         "gears": [
           {
             "nameEn": "Edenmorn Samurai Blade",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 외날검",
             "iconSrc": "/icons/items/edenmorn-samurai-blade.png",
             "type": "무기",
             "from": "영웅 레이드",
@@ -1050,7 +1050,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Mesail of Striking",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 타격대 면갑",
             "iconSrc": "/icons/items/augmented-cryptlurkers-mesail-of-striking.png",
             "type": "머리",
             "from": "석판 보강",
@@ -1118,7 +1118,7 @@
           },
           {
             "nameEn": "Edenmorn Bolero of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 볼레로",
             "iconSrc": "/icons/items/edenmorn-bolero-of-striking.png",
             "type": "몸통",
             "from": "영웅 레이드",
@@ -1186,7 +1186,7 @@
           },
           {
             "nameEn": "Edenmorn Fingerless Gloves of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 반장갑",
             "iconSrc": "/icons/items/edenmorn-fingerless-gloves-of-striking.png",
             "type": "손",
             "from": "영웅 레이드",
@@ -1254,7 +1254,7 @@
           },
           {
             "nameEn": "Edenmorn Leather Belt of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 가죽 허리띠",
             "iconSrc": "/icons/items/edenmorn-leather-belt-of-striking.png",
             "type": "허리",
             "from": "영웅 레이드",
@@ -1322,7 +1322,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Hose of Striking",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 타격대 기마바지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-hose-of-striking.png",
             "type": "다리",
             "from": "석판 보강",
@@ -1390,7 +1390,7 @@
           },
           {
             "nameEn": "Edenmorn Thighboots of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 허벅지장화",
             "iconSrc": "/icons/items/edenmorn-thighboots-of-striking.png",
             "type": "발",
             "from": "영웅 레이드",
@@ -1458,7 +1458,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Earring of Slaying",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 공격대 귀걸이",
             "iconSrc": "/icons/items/augmented-cryptlurkers-earring-of-slaying.png",
             "type": "귀걸이",
             "from": "석판 보강",
@@ -1526,7 +1526,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Slaying",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 공격대 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-slaying.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -1594,7 +1594,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Bracelet of Slaying",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 공격대 팔찌",
             "iconSrc": "/icons/items/augmented-cryptlurkers-bracelet-of-slaying.png",
             "type": "팔찌",
             "from": "석판 보강",
@@ -1662,7 +1662,7 @@
           },
           {
             "nameEn": "Edenmorn Ring of Slaying",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 공격대 반지",
             "iconSrc": "/icons/items/edenmorn-ring-of-slaying.png",
             "type": "반지",
             "from": "영웅 레이드",
@@ -1730,7 +1730,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Ring of Slaying",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 공격대 반지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-slaying.png",
             "type": "반지",
             "from": "석판 보강",
@@ -1823,10 +1823,10 @@
         "hutonGcd": 2.03,
         "shifuGcd": 2.07,
         "rotation": 29,
-        "mealName": "Chicken Fettuccine",
+        "mealName": "치킨 페투치네",
         "meal": {
           "nameEn": "Chicken Fettuccine",
-          "nameKo": null,
+          "nameKo": "치킨 페투치네",
           "iconSrc": "/icons/items/hq/chicken-fettuccine.png",
           "mealAttribute": {
             "ch": {
@@ -1850,7 +1850,7 @@
         "gears": [
           {
             "nameEn": "Edenmorn Samurai Blade",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 외날검",
             "iconSrc": "/icons/items/edenmorn-samurai-blade.png",
             "type": "무기",
             "from": "영웅 레이드",
@@ -1918,7 +1918,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Mesail of Striking",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 타격대 면갑",
             "iconSrc": "/icons/items/augmented-cryptlurkers-mesail-of-striking.png",
             "type": "머리",
             "from": "석판 보강",
@@ -1986,7 +1986,7 @@
           },
           {
             "nameEn": "Edenmorn Bolero of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 볼레로",
             "iconSrc": "/icons/items/edenmorn-bolero-of-striking.png",
             "type": "몸통",
             "from": "영웅 레이드",
@@ -2054,7 +2054,7 @@
           },
           {
             "nameEn": "Edenmorn Fingerless Gloves of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 반장갑",
             "iconSrc": "/icons/items/edenmorn-fingerless-gloves-of-striking.png",
             "type": "손",
             "from": "영웅 레이드",
@@ -2122,7 +2122,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Belt of Striking",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 타격대 허리띠",
             "iconSrc": "/icons/items/augmented-cryptlurkers-belt-of-striking.png",
             "type": "허리",
             "from": "석판 보강",
@@ -2190,7 +2190,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Hose of Striking",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 타격대 기마바지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-hose-of-striking.png",
             "type": "다리",
             "from": "석판 보강",
@@ -2258,7 +2258,7 @@
           },
           {
             "nameEn": "Edenmorn Thighboots of Striking",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 타격대 허벅지장화",
             "iconSrc": "/icons/items/edenmorn-thighboots-of-striking.png",
             "type": "발",
             "from": "영웅 레이드",
@@ -2326,7 +2326,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Earring of Slaying",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 공격대 귀걸이",
             "iconSrc": "/icons/items/augmented-cryptlurkers-earring-of-slaying.png",
             "type": "귀걸이",
             "from": "석판 보강",
@@ -2394,7 +2394,7 @@
           },
           {
             "nameEn": "Edenmorn Necklace of Slaying",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 공격대 목장식",
             "iconSrc": "/icons/items/edenmorn-necklace-of-slaying.png",
             "type": "목걸이",
             "from": "영웅 레이드",
@@ -2462,7 +2462,7 @@
           },
           {
             "nameEn": "Edenmorn Wristlet of Slaying",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 공격대 손목장식",
             "iconSrc": "/icons/items/edenmorn-wristlet-of-slaying.png",
             "type": "팔찌",
             "from": "영웅 레이드",
@@ -2530,7 +2530,7 @@
           },
           {
             "nameEn": "Edenmorn Ring of Slaying",
-            "nameKo": null,
+            "nameKo": "에덴의 아침 공격대 반지",
             "iconSrc": "/icons/items/edenmorn-ring-of-slaying.png",
             "type": "반지",
             "from": "영웅 레이드",
@@ -2598,7 +2598,7 @@
           },
           {
             "nameEn": "Augmented Cryptlurker's Ring of Slaying",
-            "nameKo": null,
+            "nameKo": "보강된 지하매복자 공격대 반지",
             "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-slaying.png",
             "type": "반지",
             "from": "석판 보강",
@@ -2756,10 +2756,10 @@
         "hutonGcd": 1.88,
         "shifuGcd": 1.92,
         "rotation": 31,
-        "mealName": "Mist Spinach Quiche",
+        "mealName": "안개시금치 키쉬",
         "meal": {
           "nameEn": "Mist Spinach Quiche",
-          "nameKo": null,
+          "nameKo": "안개시금치 키쉬",
           "iconSrc": "/icons/items/hq/mist-spinach-quiche.png",
           "mealAttribute": {
             "ch": null,
