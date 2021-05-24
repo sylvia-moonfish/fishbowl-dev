@@ -1,4 +1,5 @@
 import Avatar from "@material-ui/core/Avatar";
+import Badge from "@material-ui/core/Badge";
 import Collapse from "@material-ui/core/Collapse";
 import Divider from "@material-ui/core/Divider";
 import List from "@material-ui/core/List";
@@ -70,6 +71,7 @@ const DrawerList = (props) => {
         </ListItem>
         <Divider />
         <ListSubheader component="div">공략 &amp; 팁</ListSubheader>
+
         <ListItem
           button
           onClick={() => {
@@ -82,9 +84,11 @@ const DrawerList = (props) => {
           }}
         >
           <ListItemAvatar>
-            <Avatar src="/icons/jobs/tank.png" variant="square" />
+            <Badge color="secondary" badgeContent={1}>
+              <Avatar src="/icons/jobs/tank.png" variant="square" />
+            </Badge>
           </ListItemAvatar>
-          <ListItemText primary="[탱팁] 재생 영식" secondary="" />
+          <ListItemText primary="[탱팁] 재생 영식" secondary="2021/05/24" />
         </ListItem>
         <Divider />
         <ListSubheader component="div">아카이브</ListSubheader>
