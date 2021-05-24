@@ -88,7 +88,10 @@ const DrawerList = (props) => {
               <Avatar src="/icons/jobs/tank.png" variant="square" />
             </Badge>
           </ListItemAvatar>
-          <ListItemText primary="[탱팁] 재생 영식" secondary="2021/05/24" />
+          <ListItemText
+            primary="[탱팁] 재생 영식"
+            secondary="2021/05/24 업데이트"
+          />
         </ListItem>
         <Divider />
         <ListSubheader component="div">아카이브</ListSubheader>
