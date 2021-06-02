@@ -16,7 +16,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 import { useRouter } from "next/router";
 
-import React from "react";
+import React, { useEffect } from "react";
 
 const useStyles = makeStyles((theme) => ({
   link: {
@@ -29,12 +29,28 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const DrawerList = (props) => {
+  const badgeUpdateDate = "2021/05/24";
+
+  useEffect(() => {
+    if (window) {
+      if (
+        !window.localStorage.badgeDate ||
+        window.localStorage.badgeDate !== badgeUpdateDate
+      ) {
+        window.localStorage.badgeDate = badgeUpdateDate;
+        setBadgeNumber(0);
+      }
+    }
+  }, []);
+
   const router = useRouter();
 
   const [isArchiveOpen, setArchiveOpen] = React.useState(false);
   const toggleArchiveOpen = () => {
     setArchiveOpen(!isArchiveOpen);
   };
+
+  const [badgeNumber, setBadgeNumber] = React.useState(0);
 
   const classes = useStyles();
 
@@ -76,6 +92,9 @@ const DrawerList = (props) => {
           button
           onClick={() => {
             if (window !== undefined) {
+              window.localStorage.badgeDate = badgeUpdateDate;
+              setBadgeNumber(0);
+
               window.open(
                 "https://youtube.com/playlist?list=PLaD-EPHYB6mzru3_df7OfNWyw5Hal30mk",
                 "_blank"
@@ -84,13 +103,13 @@ const DrawerList = (props) => {
           }}
         >
           <ListItemAvatar>
-            <Badge color="secondary" badgeContent={1}>
+            <Badge color="secondary" badgeContent={badgeNumber}>
               <Avatar src="/icons/jobs/tank.png" variant="square" />
             </Badge>
           </ListItemAvatar>
           <ListItemText
             primary="[탱팁] 재생 영식"
-            secondary="2021/05/24 업데이트"
+            secondary={`${badgeUpdateDate} 업데이트`}
           />
         </ListItem>
         <Divider />

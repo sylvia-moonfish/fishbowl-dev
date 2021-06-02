@@ -919,65 +919,10 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "title": "5.5 BiS",
-    "description": "패치 5.5 BiS 리스트입니다.",
-    "columnDefinitions": [
-      {
-        "printedName": "평균 DPS",
-        "propertyName": "dps",
-        "append": ""
       },
       {
-        "printedName": "글로벌 쿨다운",
-        "propertyName": "gcd",
-        "append": " 초"
-      },
-      {
-        "printedName": "음식",
-        "propertyName": "mealName",
-        "append": ""
-      },
-      {
-        "printedName": "극대 확률",
-        "propertyName": "ch",
-        "append": " %"
-      },
-      {
-        "printedName": "직격 확률",
-        "propertyName": "dh",
-        "append": " %"
-      }
-    ],
-    "statDefinitions": [
-      {
-        "printedName": "지능",
-        "propertyName": "int"
-      },
-      {
-        "printedName": "극대",
-        "propertyName": "ch"
-      },
-      {
-        "printedName": "직격",
-        "propertyName": "dh"
-      },
-      {
-        "printedName": "의지",
-        "propertyName": "det"
-      },
-      {
-        "printedName": "마시",
-        "propertyName": "sps"
-      }
-    ],
-    "gearSets": [
-      {
-        "title": "글쿨 2.5초 제작 보강 반지 세트.",
-        "description": "글로벌 쿨다운을 2.5초로 맞춘 장비 세트. 제작 보강 반지로 인해 아이템 레벨과 체력이 살짝 낮은 것에 유의.",
+        "title": "글쿨 2.5초 석판 반지 세트.",
+        "description": "글로벌 쿨다운을 2.5초로 맞춘 장비 세트. 석판 반지로 인해 아이템 레벨과 체력이 살짝 낮은 것에 유의.",
         "attribute": {
           "wd": 180,
           "str": 186,
@@ -1774,12 +1719,12 @@
             ]
           },
           {
-            "nameEn": "Augmented Exarchic Ring of Casting",
-            "nameKo": null,
-            "iconSrc": "/icons/items/hq/augmented-exarchic-ring-of-casting.png",
+            "nameEn": "Cryptlurker's Ring of Casting",
+            "nameKo": "지하매복자 마술사 반지",
+            "iconSrc": "/icons/items/cryptlurkers-ring-of-casting.png",
             "type": "반지",
-            "from": "제작 보강",
-            "required": "제작 보강",
+            "from": "석판",
+            "required": "석판 375개",
             "materiaSlots": 2,
             "overmeldSlots": 0,
             "attribute": {
