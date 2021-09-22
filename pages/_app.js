@@ -33,7 +33,6 @@ export default function FishbowlApp(props) {
   const toggleMobileOpen = () => {
     setMobileOpen(!isMobileOpen);
   };
-  const [currentMenu, setCurrentMenu] = React.useState("");
 
   const MainComponent = styled("main")({
     display: "flex",
@@ -72,7 +71,6 @@ export default function FishbowlApp(props) {
             toggleMobileOpen={toggleMobileOpen}
           />
           <DrawerImpl
-            currentMenu={currentMenu}
             isMobileOpen={isMobileOpen}
             setMobileOpen={setMobileOpen}
             toggleMobileOpen={toggleMobileOpen}

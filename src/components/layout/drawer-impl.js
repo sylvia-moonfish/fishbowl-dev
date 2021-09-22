@@ -45,7 +45,6 @@ export default function DrawerImpl(props) {
   const drawer = (
     <DivComponent>
       <DrawerList
-        currentMenu={props.currentMenu}
         setMobileOpen={props.setMobileOpen}
         sx={{
           flexGrow: 1,
