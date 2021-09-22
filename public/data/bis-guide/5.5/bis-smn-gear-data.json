@@ -1895,7 +1895,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Index",
-            "nameKo": null,
+            "nameKo": "보강된 법령 마도서",
             "iconSrc": "/icons/items/augmented-laws-order-index.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",

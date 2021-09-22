@@ -3511,7 +3511,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Composite Bow",
-            "nameKo": null,
+            "nameKo": "보강된 법령 합성궁",
             "iconSrc": "/icons/items/augmented-laws-order-composite-bow.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",
@@ -4421,7 +4421,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Composite Bow",
-            "nameKo": null,
+            "nameKo": "보강된 법령 합성궁",
             "iconSrc": "/icons/items/augmented-laws-order-composite-bow.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",

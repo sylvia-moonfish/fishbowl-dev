@@ -3511,7 +3511,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Rod",
-            "nameKo": null,
+            "nameKo": "보강된 법령 주술봉",
             "iconSrc": "/icons/items/augmented-laws-order-rod.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",

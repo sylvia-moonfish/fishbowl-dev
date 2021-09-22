@@ -1895,7 +1895,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Spear",
-            "nameKo": null,
+            "nameKo": "보강된 법령 창",
             "iconSrc": "/icons/items/augmented-laws-order-spear.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",

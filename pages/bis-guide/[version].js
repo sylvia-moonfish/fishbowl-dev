@@ -1,20 +1,21 @@
-import Avatar from "@material-ui/core/Avatar";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import CardHeader from "@material-ui/core/CardHeader";
-import Container from "@material-ui/core/Container";
-import Grid from "@material-ui/core/Grid";
-import LinearProgress from "@material-ui/core/LinearProgress";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar";
-import ListItemText from "@material-ui/core/ListItemText";
-import ListSubheader from "@material-ui/core/ListSubheader";
-import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
+import Avatar from "@mui/material/Avatar";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardHeader from "@mui/material/CardHeader";
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
+import LinearProgress from "@mui/material/LinearProgress";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemAvatar from "@mui/material/ListItemAvatar";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
+import ListSubheader from "@mui/material/ListSubheader";
+import { styled } from "@mui/material/styles";
+import Typography from "@mui/material/Typography";
 
 import { useRouter } from "next/router";
-import React from "react";
+import * as React from "react";
 
 import SiteInfo from "/data/site-info";
 import {
@@ -22,13 +23,6 @@ import {
   generateHead,
   generatePreviewImage,
 } from "/src/utility";
-
-const useStyles = makeStyles((theme) => ({
-  banner: {
-    maxWidth: 400,
-    width: "100%",
-  },
-}));
 
 export async function getStaticPaths() {
   return {
@@ -73,14 +67,17 @@ export async function getStaticProps(context) {
   };
 }
 
-const BisGuide = (props) => {
+export default function BisGuide(props) {
   const router = useRouter();
+
+  const ImgComponent = styled("img")({
+    maxWidth: 400,
+    width: "100%",
+  });
 
   if (router.isFallback) {
     return <LinearProgress color="secondary" />;
   }
-
-  const classes = useStyles();
 
   return (
     <React.Fragment>
@@ -115,7 +112,7 @@ const BisGuide = (props) => {
               {props.pageData.banners.map((banner, bannerIndex) => {
                 return (
                   <Grid item key={bannerIndex}>
-                    <img className={classes.banner} src={banner} />
+                    <ImgComponent src={banner} />
                   </Grid>
                 );
               })}
@@ -129,7 +126,7 @@ const BisGuide = (props) => {
           <Grid item>
             <Grid container direction="row" spacing={5}>
               <Grid item xs={6}>
-                <Card>
+                <Card variant="outlined">
                   <CardHeader
                     avatar={
                       <Avatar src="/icons/jobs/tank.png" variant="square" />
@@ -140,8 +137,7 @@ const BisGuide = (props) => {
                     <List component="div" dense>
                       {props.jobs.tanks.map((job, jobIndex) => {
                         return (
-                          <ListItem
-                            button
+                          <ListItemButton
                             disabled={!job.enabled}
                             key={jobIndex}
                             onClick={() => {
@@ -158,7 +154,7 @@ const BisGuide = (props) => {
                               primary={job.name}
                               secondary={job.initial.toUpperCase()}
                             />
-                          </ListItem>
+                          </ListItemButton>
                         );
                       })}
                     </List>
@@ -166,7 +162,7 @@ const BisGuide = (props) => {
                 </Card>
               </Grid>
               <Grid item xs={6}>
-                <Card>
+                <Card variant="outlined">
                   <CardHeader
                     avatar={
                       <Avatar src="/icons/jobs/healer.png" variant="square" />
@@ -177,8 +173,7 @@ const BisGuide = (props) => {
                     <List component="div" dense>
                       {props.jobs.healers.map((job, jobIndex) => {
                         return (
-                          <ListItem
-                            button
+                          <ListItemButton
                             disabled={!job.enabled}
                             key={jobIndex}
                             onClick={() => {
@@ -195,7 +190,7 @@ const BisGuide = (props) => {
                               primary={job.name}
                               secondary={job.initial.toUpperCase()}
                             />
-                          </ListItem>
+                          </ListItemButton>
                         );
                       })}
                     </List>
@@ -205,7 +200,7 @@ const BisGuide = (props) => {
             </Grid>
           </Grid>
           <Grid item>
-            <Card>
+            <Card variant="outlined">
               <CardHeader
                 avatar={<Avatar src="/icons/jobs/dps.png" variant="square" />}
                 title="공격 역할군"
@@ -317,6 +312,4 @@ const BisGuide = (props) => {
       </Container>
     </React.Fragment>
   );
-};
-
-export default BisGuide;
+}

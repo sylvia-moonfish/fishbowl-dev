@@ -1,19 +1,18 @@
 import createEmotionServer from "@emotion/server/create-instance";
 
-import { ServerStyleSheets } from "@material-ui/styles";
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import * as React from "react";
 
-import Document, { Head, Html, Main, NextScript } from "next/document";
-import React from "react";
-
-import { cache } from "/pages/_app";
-
-const { extractCritical } = createEmotionServer(cache);
+import createEmotionCache from "/src/createEmotionCache";
+import theme from "/src/theme";
 
 export default class FishbowlDocument extends Document {
   render() {
     return (
       <Html lang="ko">
-        <Head />
+        <Head>
+          <meta name="theme-color" content={theme.palette.primary.main} />
+        </Head>
         <body>
           <Main />
           <NextScript />
@@ -24,27 +23,31 @@ export default class FishbowlDocument extends Document {
 }
 
 FishbowlDocument.getInitialProps = async (ctx) => {
-  const sheets = new ServerStyleSheets();
   const originalRenderPage = ctx.renderPage;
+
+  const cache = createEmotionCache();
+  const { extractCriticalToChunks } = createEmotionServer(cache);
 
   ctx.renderPage = () =>
     originalRenderPage({
-      enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
+      enhanceApp: (App) => (props) => <App emotionCache={cache} {...props} />,
     });
 
   const initialProps = await Document.getInitialProps(ctx);
-  const styles = extractCritical(initialProps.html);
+  const emotionStyles = extractCriticalToChunks(initialProps.html);
+  const emotionStyleTags = emotionStyles.styles.map((style) => (
+    <style
+      data-emotion={`${style.key} ${style.ids.join(" ")}`}
+      key={style.key}
+      dangerouslySetInnerHTML={{ __html: style.css }}
+    />
+  ));
 
   return {
     ...initialProps,
     styles: [
       ...React.Children.toArray(initialProps.styles),
-      sheets.getStyleElement(),
-      <style
-        key="emotion-style-tag"
-        data-emotion={`css ${styles.ids.join(" ")}`}
-        dangerouslySetInnerHTML={{ __html: styles.css }}
-      />,
+      ...emotionStyleTags,
     ],
   };
 };

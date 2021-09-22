@@ -1,38 +1,26 @@
-import Avatar from "@material-ui/core/Avatar";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Chip from "@material-ui/core/Chip";
-import { blue, purple, red } from "@material-ui/core/colors";
-import Grid from "@material-ui/core/Grid";
-import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
+import {
+  Twitter as TwitterIcon,
+  YouTube as YoutubeIcon,
+} from "@mui/icons-material";
+import Avatar from "@mui/material/Avatar";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Chip from "@mui/material/Chip";
+import { blue, purple, red } from "@mui/material/colors";
+import Grid from "@mui/material/Grid";
+import { styled } from "@mui/material/styles";
+import Typography from "@mui/material/Typography";
 
-import TwitterIcon from "@material-ui/icons/Twitter";
-
-import React from "react";
+import * as React from "react";
 
 import SiteInfo from "/data/site-info";
 import TwitchIcon from "/src/components/icons/twitch-icon";
-import YoutubeIcon from "/src/components/icons/youtube-icon";
 import {
   generateFooter,
   generateHead,
   generatePreviewImage,
 } from "/src/utility";
-
-const useStyles = makeStyles((theme) => ({
-  link: {
-    color: "inherit",
-    textDecoration: "none",
-  },
-  media: {
-    height: 300,
-    [theme.breakpoints.up("md")]: {
-      height: 400,
-    },
-  },
-}));
 
 export async function getStaticProps(context) {
   return {
@@ -42,8 +30,11 @@ export async function getStaticProps(context) {
   };
 }
 
-const index = (props) => {
-  const classes = useStyles();
+export default function Index(props) {
+  const AnchorComponent = styled("a")({
+    color: "inherit",
+    textDecoration: "none",
+  });
 
   return (
     <React.Fragment>
@@ -52,7 +43,15 @@ const index = (props) => {
       <Grid container direction="column" spacing={5}>
         <Grid item>
           <Card>
-            <CardMedia className={classes.media} image="/banner.png" />
+            <CardMedia
+              image="/banner.png"
+              sx={{
+                height: {
+                  xs: 300,
+                  md: 400,
+                },
+              }}
+            />
             <CardContent align="center">
               <Grid
                 alignItems="center"
@@ -68,8 +67,7 @@ const index = (props) => {
                 <Grid item>
                   <Grid container direction="row" spacing={1}>
                     <Grid item>
-                      <a
-                        className={classes.link}
+                      <AnchorComponent
                         href={SiteInfo.globalFFlogsLink}
                         rel="noopener noreferrer"
                         target="_blank"
@@ -81,7 +79,7 @@ const index = (props) => {
                           size="small"
                           variant="outlined"
                         />
-                      </a>
+                      </AnchorComponent>
                     </Grid>
                     <Grid item>
                       <Chip
@@ -95,8 +93,7 @@ const index = (props) => {
                 <Grid item>
                   <Grid container direction="row" spacing={1}>
                     <Grid item>
-                      <a
-                        className={classes.link}
+                      <AnchorComponent
                         href={SiteInfo.twitterLink}
                         rel="noopener noreferrer"
                         target="_blank"
@@ -117,11 +114,10 @@ const index = (props) => {
                           }}
                           variant="outlined"
                         />
-                      </a>
+                      </AnchorComponent>
                     </Grid>
                     <Grid item>
-                      <a
-                        className={classes.link}
+                      <AnchorComponent
                         href={SiteInfo.twitchLink}
                         rel="noopener noreferrer"
                         target="_blank"
@@ -142,11 +138,10 @@ const index = (props) => {
                           }}
                           variant="outlined"
                         />
-                      </a>
+                      </AnchorComponent>
                     </Grid>
                     <Grid item>
-                      <a
-                        className={classes.link}
+                      <AnchorComponent
                         href={SiteInfo.youtubeLink}
                         rel="noopener noreferrer"
                         target="_blank"
@@ -167,7 +162,7 @@ const index = (props) => {
                           }}
                           variant="outlined"
                         />
-                      </a>
+                      </AnchorComponent>
                     </Grid>
                   </Grid>
                 </Grid>
@@ -179,6 +174,4 @@ const index = (props) => {
       </Grid>
     </React.Fragment>
   );
-};
-
-export default index;
+}

@@ -1,58 +1,57 @@
-import AppBar from "@material-ui/core/AppBar";
-import Button from "@material-ui/core/Button";
-import IconButton from "@material-ui/core/IconButton";
-import { makeStyles } from "@material-ui/core/styles";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-
-import MenuIcon from "@material-ui/icons/Menu";
+import { Menu as MenuIcon } from "@mui/icons-material";
+import AppBar from "@mui/material/AppBar";
+import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
+import { styled } from "@mui/material/styles";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
 
 import Link from "next/link";
 import { useRouter } from "next/router";
+import * as React from "react";
 
 import SiteInfo from "/data/site-info";
 
-const useStyles = makeStyles((theme) => ({
-  appBar: {
-    zIndex: theme.zIndex.drawer + 1,
-  },
-  grow: {
-    flexGrow: 1,
-  },
-  link: {
-    color: "inherit",
-    textDecoration: "none",
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-    [theme.breakpoints.up("lg")]: {
-      display: "none",
-    },
-  },
-}));
-
-const AppBarImpl = (props) => {
-  const classes = useStyles();
+export default function AppBarImpl(props) {
   const router = useRouter();
 
+  const DivComponent = styled("div")({
+    flexGrow: 1,
+  });
+
+  const AnchorComponent = styled("a")({
+    color: "inherit",
+    textDecoration: "none",
+    cursor: "pointer",
+  });
+
   return (
-    <AppBar className={classes.appBar} position="fixed">
+    <AppBar
+      position="fixed"
+      sx={{
+        zIndex: (theme) => theme.zIndex.drawer + 1,
+      }}
+    >
       <Toolbar variant="dense">
         <IconButton
-          className={classes.menuButton}
           color="inherit"
           edge="start"
           onClick={props.toggleMobileOpen}
+          sx={{
+            marginRight: 2,
+            display: {
+              lg: "none",
+            },
+          }}
         >
           <MenuIcon />
         </IconButton>
-        <div className={classes.grow}>
-          <Link href="/">
-            <a className={classes.link}>
-              <Typography variant="h6">{SiteInfo.siteTitle}</Typography>
-            </a>
-          </Link>
-        </div>
+        <Link href="/">
+          <AnchorComponent>
+            <Typography variant="h6">{SiteInfo.siteTitle}</Typography>
+          </AnchorComponent>
+        </Link>
+        <DivComponent />
         <Button
           color="secondary"
           onClick={() => {
@@ -65,6 +64,4 @@ const AppBarImpl = (props) => {
       </Toolbar>
     </AppBar>
   );
-};
-
-export default AppBarImpl;
+}

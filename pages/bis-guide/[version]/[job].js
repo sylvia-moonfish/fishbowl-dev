@@ -1,32 +1,29 @@
-import AppBar from "@material-ui/core/AppBar";
-import Avatar from "@material-ui/core/Avatar";
-import Breadcrumbs from "@material-ui/core/Breadcrumbs";
-import Chip from "@material-ui/core/Chip";
-import { blue } from "@material-ui/core/colors";
-import Container from "@material-ui/core/Container";
-import Dialog from "@material-ui/core/Dialog";
-import DialogContent from "@material-ui/core/DialogContent";
-import Grid from "@material-ui/core/Grid";
-import Grow from "@material-ui/core/Grow";
-import Hidden from "@material-ui/core/Hidden";
-import IconButton from "@material-ui/core/IconButton";
-import LinearProgress from "@material-ui/core/LinearProgress";
-import Link from "@material-ui/core/Link";
-import { makeStyles } from "@material-ui/core/styles";
-import Table from "@material-ui/core/Table";
-import TableBody from "@material-ui/core/TableBody";
-import TableCell from "@material-ui/core/TableCell";
-import TableContainer from "@material-ui/core/TableContainer";
-import TableHead from "@material-ui/core/TableHead";
-import TableRow from "@material-ui/core/TableRow";
-import Toolbar from "@material-ui/core/Toolbar";
-import Tooltip from "@material-ui/core/Tooltip";
-import Typography from "@material-ui/core/Typography";
-
-import CloseIcon from "@material-ui/icons/Close";
+import { Close as CloseIcon } from "@mui/icons-material";
+import AppBar from "@mui/material/AppBar";
+import Avatar from "@mui/material/Avatar";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Chip from "@mui/material/Chip";
+import Container from "@mui/material/Container";
+import Dialog from "@mui/material/Dialog";
+import DialogContent from "@mui/material/DialogContent";
+import Grid from "@mui/material/Grid";
+import Grow from "@mui/material/Grow";
+import IconButton from "@mui/material/IconButton";
+import LinearProgress from "@mui/material/LinearProgress";
+import Link from "@mui/material/Link";
+import { styled } from "@mui/material/styles";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Toolbar from "@mui/material/Toolbar";
+import Tooltip from "@mui/material/Tooltip";
+import Typography from "@mui/material/Typography";
 
 import { useRouter } from "next/router";
-import React from "react";
+import * as React from "react";
 
 import SiteInfo from "/data/site-info";
 import {
@@ -34,27 +31,6 @@ import {
   generateHead,
   generatePreviewImage,
 } from "/src/utility";
-
-const useStyles = makeStyles((theme) => ({
-  banner: {
-    maxWidth: 128,
-    width: "100%",
-  },
-  grow: {
-    flexGrow: 1,
-  },
-  link: {
-    color: "inherit",
-    cursor: "pointer",
-    textDecoration: "none",
-  },
-  textLink: {
-    color: blue[500],
-  },
-  noMargin: {
-    margin: 0,
-  },
-}));
 
 export async function getStaticPaths() {
   return {
@@ -128,7 +104,24 @@ const BisGuideJob = (props) => {
   const [selectedTableIndex, setSelectedTableIndex] = React.useState(-1);
   const [selectedGearSetIndex, setSelectedGearSetIndex] = React.useState(-1);
 
-  const classes = useStyles();
+  const ImgComponent = styled("img")({
+    maxWidth: 128,
+    width: "100%",
+  });
+
+  const AnchorComponent = styled("a")({
+    color: "inherit",
+    cursor: "pointer",
+    textDecoration: "none",
+  });
+
+  const DivComponent = styled("div")({
+    flexGrow: 1,
+  });
+
+  const ParagraphComponent = styled("p")({
+    margin: 0,
+  });
 
   return (
     <React.Fragment>
@@ -141,10 +134,14 @@ const BisGuideJob = (props) => {
         <Grid item>
           <Breadcrumbs>
             <Link
-              className={classes.link}
               color="inherit"
               onClick={() => {
                 router.push(`/bis-guide/${version}`);
+              }}
+              sx={{
+                color: "inherit",
+                cursor: "pointer",
+                textDecoration: "none",
               }}
             >
               {props.parentPageData.pageTitle}
@@ -162,7 +159,7 @@ const BisGuideJob = (props) => {
                   alignItems="center"
                   container
                   direction="row"
-                  justify="center"
+                  justifyContent="center"
                 >
                   <Grid item>
                     <Typography variant="h5">
@@ -176,13 +173,10 @@ const BisGuideJob = (props) => {
                   alignItems="center"
                   container
                   direction="row"
-                  justify="center"
+                  justifyContent="center"
                 >
                   <Grid item>
-                    <img
-                      className={classes.banner}
-                      src={props.pageData.banner}
-                    />
+                    <ImgComponent src={props.pageData.banner} />
                   </Grid>
                 </Grid>
               </Grid>
@@ -194,9 +188,7 @@ const BisGuideJob = (props) => {
                   <li>
                     <Typography variant="body1">
                       문의사항 및 오탈자 제보:{" "}
-                      <a className={classes.textLink} href="/contact">
-                        링크
-                      </a>
+                      <AnchorComponent href="/contact">링크</AnchorComponent>
                     </Typography>
                   </li>
                 </ul>
@@ -215,9 +207,14 @@ const BisGuideJob = (props) => {
                 <Table>
                   <TableHead>
                     <TableRow>
-                      <Hidden mdDown>
-                        <TableCell />
-                      </Hidden>
+                      <TableCell
+                        sx={{
+                          display: {
+                            xs: "none",
+                            md: "table-cell",
+                          },
+                        }}
+                      />
                       {table.columnDefinitions.map(
                         (columnDefinition, columnDefinitionIndex) => {
                           return (
@@ -234,16 +231,27 @@ const BisGuideJob = (props) => {
                       return (
                         <React.Fragment key={gearSetIndex}>
                           <TableRow
-                            className={classes.link}
                             hover
                             onClick={() => {
                               setSelectedTableIndex(tableIndex);
                               setSelectedGearSetIndex(gearSetIndex);
                             }}
+                            sx={{
+                              color: "inherit",
+                              cursor: "pointer",
+                              textDecoration: "none",
+                            }}
                           >
-                            <Hidden mdDown>
-                              <TableCell>{gearSet.title}</TableCell>
-                            </Hidden>
+                            <TableCell
+                              sx={{
+                                display: {
+                                  xs: "none",
+                                  md: "table-cell",
+                                },
+                              }}
+                            >
+                              {gearSet.title}
+                            </TableCell>
                             {table.columnDefinitions.map(
                               (columnDefinition, columnDefinitionIndex) => {
                                 return (
@@ -271,11 +279,11 @@ const BisGuideJob = (props) => {
                           >
                             <AppBar position="static">
                               <Toolbar variant="dense">
-                                <div className={classes.grow}>
+                                <DivComponent>
                                   <Typography variant="body1">
                                     {gearSet.title}
                                   </Typography>
-                                </div>
+                                </DivComponent>
                                 <IconButton
                                   onClick={() => {
                                     setSelectedTableIndex(-1);
@@ -362,7 +370,7 @@ const BisGuideJob = (props) => {
                                         </TableRow>
                                       </TableHead>
                                       <TableBody>
-                                        <TableRow>
+                                        <TableRow hover>
                                           <TableCell>음식</TableCell>
                                           <TableCell>
                                             <Avatar
@@ -382,6 +390,7 @@ const BisGuideJob = (props) => {
                                           (gear, gearIndex) => {
                                             return (
                                               <TableRow
+                                                hover
                                                 key={gearIndex}
                                                 selected={
                                                   gear.from === "영웅 레이드" ||
@@ -475,14 +484,11 @@ const BisGuideJob = (props) => {
                                                     .split("\n")
                                                     .map((str, strIndex) => {
                                                       return (
-                                                        <p
-                                                          className={
-                                                            classes.noMargin
-                                                          }
+                                                        <ParagraphComponent
                                                           key={strIndex}
                                                         >
                                                           {str}
-                                                        </p>
+                                                        </ParagraphComponent>
                                                       );
                                                     })}
                                                 </TableCell>

@@ -1,18 +1,13 @@
-import { purple } from "@material-ui/core/colors";
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createTheme } from "@mui/material/styles";
+import { purple } from "@mui/material/colors";
 
-const theme = createMuiTheme({
+const theme = createTheme({
   typography: {
     fontFamily: "Noto Sans KR",
   },
   palette: {
-    type: "dark",
-    primary: {
-      main: purple[900],
-    },
-    secondary: {
-      main: purple[100],
-    },
+    mode: "dark",
+    primary: purple,
   },
 });
 

@@ -2783,7 +2783,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Samurai Blade",
-            "nameKo": null,
+            "nameKo": "보강된 법령 외날검",
             "iconSrc": "/icons/items/augmented-laws-order-samurai-blade.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",

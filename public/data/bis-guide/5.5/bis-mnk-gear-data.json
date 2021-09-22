@@ -1905,7 +1905,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Knuckles",
-            "nameKo": null,
+            "nameKo": "보강된 법령 너클",
             "iconSrc": "/icons/items/augmented-laws-order-knuckles.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",
@@ -2708,7 +2708,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Knuckles",
-            "nameKo": null,
+            "nameKo": "보강된 법령 너클",
             "iconSrc": "/icons/items/augmented-laws-order-knuckles.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",
@@ -3231,7 +3231,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Knuckles",
-            "nameKo": null,
+            "nameKo": "보강된 법령 너클",
             "iconSrc": "/icons/items/augmented-laws-order-knuckles.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",

@@ -1,18 +1,18 @@
-import Avatar from "@material-ui/core/Avatar";
-import { blue, indigo, red } from "@material-ui/core/colors";
-import Container from "@material-ui/core/Container";
-import Grid from "@material-ui/core/Grid";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar";
-import ListItemText from "@material-ui/core/ListItemText";
-import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
+import Avatar from "@mui/material/Avatar";
+import { blue, indigo, red } from "@mui/material/colors";
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemAvatar from "@mui/material/ListItemAvatar";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
+import { styled } from "@mui/material/styles";
+import Typography from "@mui/material/Typography";
 
-import MailIcon from "@material-ui/icons/Mail";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import { Mail as MailIcon, Twitter as TwitterIcon } from "@mui/icons-material";
 
-import React from "react";
+import * as React from "react";
 
 import SiteInfo from "/data/site-info";
 import DiscordIcon from "/src/components/icons/discord-icon";
@@ -22,16 +22,11 @@ import {
   generatePreviewImage,
 } from "/src/utility";
 
-const useStyles = makeStyles((theme) => ({
-  link: {
+export default function Contact(props) {
+  const AnchorComponent = styled("a")({
     color: "inherit",
     textDecoration: "none",
-  },
-}));
-
-const Contact = (props) => {
-  const classes = useStyles();
-
+  });
   return (
     <React.Fragment>
       {generateHead(`연락처 | ${SiteInfo.siteTitle}`, "")}
@@ -47,41 +42,12 @@ const Contact = (props) => {
           </Grid>
           <Grid item>
             <List>
-              <a
-                className={classes.link}
-                href={SiteInfo.discordInviteLink}
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <ListItem
-                  button
-                  style={{
-                    color: indigo[100],
-                  }}
-                >
-                  <ListItemAvatar>
-                    <Avatar
-                      style={{
-                        color: indigo[100],
-                      }}
-                    >
-                      <DiscordIcon />
-                    </Avatar>
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={SiteInfo.discordName}
-                    secondary="이곳을 클릭해 제보 채널에 참가 후 메세지를 보내거나 위 디스코드 태그로 친구 추가 후 개인 메세지를 보내주세요!"
-                  />
-                </ListItem>
-              </a>
-              <a
-                className={classes.link}
+              <AnchorComponent
                 href={SiteInfo.twitterLink}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <ListItem
-                  button
+                <ListItemButton
                   style={{
                     color: blue[100],
                   }}
@@ -99,11 +65,35 @@ const Contact = (props) => {
                     primary={`@${SiteInfo.twitterUsername}`}
                     secondary="이곳을 클릭해 프로필 페이지로 이동 후 쪽지 혹은 개인 멘션으로 연락 바랍니다."
                   />
-                </ListItem>
-              </a>
-              <a className={classes.link} href={`mailto:${SiteInfo.email}`}>
-                <ListItem
-                  button
+                </ListItemButton>
+              </AnchorComponent>
+              <AnchorComponent
+                href={SiteInfo.discordInviteLink}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ListItemButton
+                  style={{
+                    color: indigo[100],
+                  }}
+                >
+                  <ListItemAvatar>
+                    <Avatar
+                      style={{
+                        color: indigo[100],
+                      }}
+                    >
+                      <DiscordIcon />
+                    </Avatar>
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary={SiteInfo.discordName}
+                    secondary="이곳을 클릭해 제보 채널에 참가 후 메세지를 보내거나 위 디스코드 태그로 친구 추가 후 개인 메세지를 보내주세요!"
+                  />
+                </ListItemButton>
+              </AnchorComponent>
+              <AnchorComponent href={`mailto:${SiteInfo.email}`}>
+                <ListItemButton
                   style={{
                     color: red[100],
                   }}
@@ -121,8 +111,8 @@ const Contact = (props) => {
                     primary="sylvia.moonfish@gmail.com"
                     secondary="이메일은 자주 확인하는 편이 아니라서 답변이 늦어질 수 있어요 :("
                   />
-                </ListItem>
-              </a>
+                </ListItemButton>
+              </AnchorComponent>
             </List>
           </Grid>
           <Grid item>
@@ -155,6 +145,4 @@ const Contact = (props) => {
       </Container>
     </React.Fragment>
   );
-};
-
-export default Contact;
+}

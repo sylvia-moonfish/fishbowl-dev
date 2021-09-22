@@ -1895,7 +1895,7 @@
         "gears": [
           {
             "nameEn": "Augmented Law's Order Rapier",
-            "nameKo": null,
+            "nameKo": "보강된 법령 레이피어",
             "iconSrc": "/icons/items/augmented-laws-order-rapier.png",
             "type": "무기",
             "from": "레지스탕스 웨폰",
