@@ -88,11 +88,14 @@ export async function getStaticProps(context) {
   };
 }
 
-const transition = React.forwardRef((props, ref) => {
+const transition = React.forwardRef(function Transition(props, ref) {
   return <Grow {...props} ref={ref} />;
 });
 
-const BisGuideJob = (props) => {
+export default function BisGuideJob(props) {
+  const [selectedTableIndex, setSelectedTableIndex] = React.useState(-1);
+  const [selectedGearSetIndex, setSelectedGearSetIndex] = React.useState(-1);
+
   const router = useRouter();
 
   if (router.isFallback) {
@@ -100,9 +103,6 @@ const BisGuideJob = (props) => {
   }
 
   const { version, job } = router.query;
-
-  const [selectedTableIndex, setSelectedTableIndex] = React.useState(-1);
-  const [selectedGearSetIndex, setSelectedGearSetIndex] = React.useState(-1);
 
   const ImgComponent = styled("img")({
     maxWidth: 128,
@@ -516,6 +516,4 @@ const BisGuideJob = (props) => {
       </Grid>
     </React.Fragment>
   );
-};
-
-export default BisGuideJob;
+}

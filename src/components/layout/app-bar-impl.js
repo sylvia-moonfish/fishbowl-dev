@@ -46,7 +46,7 @@ export default function AppBarImpl(props) {
         >
           <MenuIcon />
         </IconButton>
-        <Link href="/">
+        <Link href="/" passHref>
           <AnchorComponent>
             <Typography variant="h6">{SiteInfo.siteTitle}</Typography>
           </AnchorComponent>

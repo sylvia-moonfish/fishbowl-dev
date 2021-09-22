@@ -52,7 +52,7 @@ export default function FishbowlApp(props) {
           src={`https://www.googletagmanager.com/gtag/js?id=${SiteInfo.gtmId}`}
         />
         <script
-          dangerouslySetInnerHtml={{
+          dangerouslySetInnerHTML={{
             __html: `
                     window.dataLayer = window.dataLayer || [];
                     function gtag() {
