@@ -123,13 +123,16 @@ export default function DrawerImpl(props) {
             lg: "none",
           },
           flexDirection: "column",
+          flexShrink: 0,
           width: 250,
           "& .MuiDrawer-paper": {
+            boxSizing: "border-box",
             width: 250,
           },
         }}
         variant="temporary"
       >
+        <DivToolbar />
         {drawer}
         {bottomLink}
       </Drawer>
@@ -141,8 +144,10 @@ export default function DrawerImpl(props) {
             lg: "block",
           },
           flexDirection: "column",
+          flexShrink: 0,
           width: 250,
           "& .MuiDrawer-paper": {
+            boxSizing: "border-box",
             width: 250,
           },
         }}

@@ -94,6 +94,20 @@ export default function DrawerList(props) {
           />
         </ListItemButton>
         <Divider />
+        <ListSubheader component="div">BiS 아카이브</ListSubheader>
+        <ListItemButton
+          onClick={() => {
+            props.setMobileOpen(false);
+            router.push("/5.2/guide/bis-guide");
+          }}
+          selected={router.asPath.indexOf("/5.2/guide/bis-guide") !== -1}
+        >
+          <ListItemIcon>
+            <ArchiveIcon />
+          </ListItemIcon>
+          <ListItemText primary="5.2 BiS 가이드" />
+        </ListItemButton>
+        <Divider />
       </List>
     </React.Fragment>
   );
