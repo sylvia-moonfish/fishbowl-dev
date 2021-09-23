@@ -42,26 +42,6 @@ export default function FishbowlApp(props) {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta content="initial-scale=1, width=device-width" name="viewport" />
-        <link href="/avatar.jpg" rel="icon" type="image/jpg" />
-        <meta content="website" property="og:type" />
-        <meta content="summary" name="twitter:card" />
-        <meta content={"@" + SiteInfo.twitterUsername} name="twitter:site" />
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${SiteInfo.gtmId}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag() {
-                        dataLayer.push(arguments);
-                    }
-                    gtag('js', new Date());
-                    gtag('config', '${SiteInfo.gtmId}');
-                    `,
-          }}
-        />
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />

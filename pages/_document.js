@@ -3,6 +3,7 @@ import createEmotionServer from "@emotion/server/create-instance";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import * as React from "react";
 
+import SiteInfo from "/data/site-info";
 import createEmotionCache from "/src/createEmotionCache";
 import theme from "/src/theme";
 
@@ -11,7 +12,32 @@ export default class FishbowlDocument extends Document {
     return (
       <Html lang="ko">
         <Head>
+          <link href="/avatar.jpg" rel="icon" type="image/jpg" />
           <meta name="theme-color" content={theme.palette.primary.main} />
+          <meta content="website" property="og:type" />
+          <meta content="summary" name="twitter:card" />
+          <meta content={"@" + SiteInfo.twitterUsername} name="twitter:site" />
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${SiteInfo.gtmId}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() {
+                        dataLayer.push(arguments);
+                    }
+                    gtag('js', new Date());
+                    gtag('config', '${SiteInfo.gtmId}');
+                    `,
+            }}
+          />
+          <script
+            data-ad-client="ca-pub-8296888972658787"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          ></script>
         </Head>
         <body>
           <Main />
