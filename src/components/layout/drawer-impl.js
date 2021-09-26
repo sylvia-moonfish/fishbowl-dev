@@ -10,6 +10,7 @@ import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 
 import { useRouter } from "next/router";
+import Script from "next/script";
 import * as React from "react";
 
 import SiteInfo from "/data/site-info";
@@ -76,13 +77,10 @@ export default function DrawerImpl(props) {
           data-ad-client="ca-pub-8296888972658787"
           data-ad-slot="7431559115"
         ></ins>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          `,
-          }}
-        />
+        <Script
+          id="drawerAds"
+          strategy="afterInteractive"
+        >{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
       </AdDivComponent>
       <Grid container justifyContent="center">
         <AnchorComponent
