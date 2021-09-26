@@ -170,6 +170,16 @@ export default function Index(props) {
             </CardContent>
           </Card>
         </Grid>
+        <Grid item>
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-8296888972658787"
+            data-ad-slot="6818628677"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </Grid>
         <Grid item>{generateFooter()}</Grid>
       </Grid>
     </React.Fragment>

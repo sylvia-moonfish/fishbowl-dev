@@ -34,9 +34,9 @@ export default class FishbowlDocument extends Document {
             }}
           />
           <script
-            data-ad-client="ca-pub-8296888972658787"
             async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8296888972658787"
+            crossOrigin="anonymous"
           ></script>
         </Head>
         <body>

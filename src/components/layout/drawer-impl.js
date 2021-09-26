@@ -31,11 +31,18 @@ export default function DrawerImpl(props) {
 
   const NavComponent = styled("nav")({
     width: {
-      lg: 250,
+      lg: 255,
     },
     flexShrink: {
       lg: 0,
     },
+  });
+
+  const AdDivComponent = styled("div")({
+    height: 250,
+    margin: "0 auto",
+    padding: 0,
+    width: 250,
   });
 
   const DivToolbar = styled("div")({
@@ -55,6 +62,18 @@ export default function DrawerImpl(props) {
 
   const bottomLink = (
     <React.Fragment>
+      <AdDivComponent>
+        <ins
+          className="adsbygoogle"
+          style={{
+            display: "inline-block",
+            height: 250,
+            width: 250,
+          }}
+          data-ad-client="ca-pub-8296888972658787"
+          data-ad-slot="7431559115"
+        ></ins>
+      </AdDivComponent>
       <Grid container justifyContent="center">
         <AnchorComponent
           href={SiteInfo.twitterLink}
@@ -124,10 +143,10 @@ export default function DrawerImpl(props) {
           },
           flexDirection: "column",
           flexShrink: 0,
-          width: 250,
+          width: 255,
           "& .MuiDrawer-paper": {
             boxSizing: "border-box",
-            width: 250,
+            width: 255,
           },
         }}
         variant="temporary"
@@ -145,10 +164,10 @@ export default function DrawerImpl(props) {
           },
           flexDirection: "column",
           flexShrink: 0,
-          width: 250,
+          width: 255,
           "& .MuiDrawer-paper": {
             boxSizing: "border-box",
-            width: 250,
+            width: 255,
           },
         }}
         variant="permanent"

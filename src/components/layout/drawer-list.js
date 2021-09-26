@@ -1,11 +1,6 @@
-import {
-  Archive as ArchiveIcon,
-  ExpandLess as ExpandLessIcon,
-  ExpandMore as ExpandMoreIcon,
-} from "@mui/icons-material";
+import { Archive as ArchiveIcon } from "@mui/icons-material";
 import Avatar from "@mui/material/Avatar";
 import Badge from "@mui/material/Badge";
-import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
@@ -34,10 +29,6 @@ export default function DrawerList(props) {
 
   const router = useRouter();
 
-  const [isArchiveOpen, setArchiveOpen] = React.useState(false);
-  const toggleArchiveOpen = () => {
-    setArchiveOpen(!isArchiveOpen);
-  };
   const [badgeNumber, setBadgeNumber] = React.useState(0);
 
   return (
