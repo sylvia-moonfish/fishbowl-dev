@@ -21,6 +21,18 @@ import DrawerList from "/src/components/layout/drawer-list";
 export default function DrawerImpl(props) {
   const router = useRouter();
 
+  React.useEffect(() => {
+    const adsense = () => {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    };
+
+    router.events.on("routeChangeComplete", adsense);
+
+    return () => {
+      router.events.off("routeChangeComplete", adsense);
+    };
+  }, [router.events]);
+
   const DivComponent = styled("div")({
     flexGrow: 1,
   });
