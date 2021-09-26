@@ -12,32 +12,16 @@ export default class FishbowlDocument extends Document {
     return (
       <Html lang="ko">
         <Head>
-          <link href="/avatar.jpg" rel="icon" type="image/jpg" />
-          <meta name="theme-color" content={theme.palette.primary.main} />
-          <meta content="website" property="og:type" />
-          <meta content="summary" name="twitter:card" />
-          <meta content={"@" + SiteInfo.twitterUsername} name="twitter:site" />
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${SiteInfo.gtmId}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag() {
-                        dataLayer.push(arguments);
-                    }
-                    gtag('js', new Date());
-                    gtag('config', '${SiteInfo.gtmId}');
-                    `,
-            }}
-          />
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8296888972658787"
             crossOrigin="anonymous"
           ></script>
+          <link href="/avatar.jpg" rel="icon" type="image/jpg" />
+          <meta name="theme-color" content={theme.palette.primary.main} />
+          <meta content="website" property="og:type" />
+          <meta content="summary" name="twitter:card" />
+          <meta content={"@" + SiteInfo.twitterUsername} name="twitter:site" />
         </Head>
         <body>
           <Main />

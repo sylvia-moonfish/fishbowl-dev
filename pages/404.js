@@ -6,7 +6,7 @@ export default function NotFound(props) {
 
   React.useEffect(() => {
     router.push("/");
-  }, []);
+  });
 
   return <div />;
 }
