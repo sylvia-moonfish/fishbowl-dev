@@ -21,7 +21,6 @@ Router.events.on("routeChangeComplete", (url) => {
     window.gtag("config", SiteInfo.gtmId, {
       page_location: url,
     });
-    (adsbygoogle = window.adsbygoogle || []).push({});
   }
 });
 

@@ -38,12 +38,15 @@ export default function DrawerImpl(props) {
     },
   });
 
-  const AdDivComponent = styled("div")({
+  const AdDivComponent = styled("div")(({ theme }) => ({
     height: 250,
-    margin: "0 auto",
+    marginTop: 0,
+    marginBottom: theme.spacing(3),
+    marginLeft: "auto",
+    marginRight: "auto",
     padding: 0,
     width: 250,
-  });
+  }));
 
   const DivToolbar = styled("div")({
     minHeight: 45,
@@ -73,6 +76,13 @@ export default function DrawerImpl(props) {
           data-ad-client="ca-pub-8296888972658787"
           data-ad-slot="7431559115"
         ></ins>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          `,
+          }}
+        />
       </AdDivComponent>
       <Grid container justifyContent="center">
         <AnchorComponent
