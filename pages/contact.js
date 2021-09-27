@@ -12,6 +12,8 @@ import Typography from "@mui/material/Typography";
 
 import { Mail as MailIcon, Twitter as TwitterIcon } from "@mui/icons-material";
 
+import { useRouter } from "next/router";
+import Script from "next/script";
 import * as React from "react";
 
 import SiteInfo from "/data/site-info";
@@ -23,10 +25,25 @@ import {
 } from "/src/utility";
 
 export default function Contact(props) {
+  const router = useRouter();
+
+  React.useEffect(() => {
+    const adsense = () => {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    };
+
+    router.events.on("routeChangeComplete", adsense);
+
+    return () => {
+      router.events.off("routeChangeComplete", adsense);
+    };
+  }, [router.events]);
+
   const AnchorComponent = styled("a")({
     color: "inherit",
     textDecoration: "none",
   });
+
   return (
     <React.Fragment>
       {generateHead(`연락처 | ${SiteInfo.siteTitle}`, "")}
@@ -149,6 +166,10 @@ export default function Contact(props) {
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
+            <Script
+              id="inPageTopBannerAds"
+              strategy="afterInteractive"
+            >{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
           </Grid>
           <Grid item>{generateFooter()}</Grid>
         </Grid>
