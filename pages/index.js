@@ -12,8 +12,6 @@ import Grid from "@mui/material/Grid";
 import { styled } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 
-import { useRouter } from "next/router";
-import Script from "next/script";
 import * as React from "react";
 
 import SiteInfo from "/data/site-info";
@@ -33,20 +31,6 @@ export async function getStaticProps(context) {
 }
 
 export default function Index(props) {
-  const router = useRouter();
-
-  React.useEffect(() => {
-    const adsense = () => {
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    };
-
-    router.events.on("routeChangeComplete", adsense);
-
-    return () => {
-      router.events.off("routeChangeComplete", adsense);
-    };
-  }, [router.events]);
-
   const AnchorComponent = styled("a")({
     color: "inherit",
     textDecoration: "none",
@@ -185,20 +169,6 @@ export default function Index(props) {
               </Grid>
             </CardContent>
           </Card>
-        </Grid>
-        <Grid item>
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-8296888972658787"
-            data-ad-slot="6818628677"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-          <Script
-            id="inPageTopBannerAds"
-            strategy="afterInteractive"
-          >{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
         </Grid>
         <Grid item>{generateFooter()}</Grid>
       </Grid>

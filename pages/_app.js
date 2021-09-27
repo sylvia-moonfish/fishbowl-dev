@@ -25,6 +25,7 @@ export default function FishbowlApp(props) {
   React.useEffect(() => {
     const handleRouteChange = (url) => {
       gtag.pageview(url);
+      (adsbygoogle = window.adsbygoogle || []).push({});
     };
 
     router.events.on("routeChangeComplete", handleRouteChange);
@@ -44,6 +45,10 @@ export default function FishbowlApp(props) {
   const MainComponent = styled("main")({
     display: "flex",
   });
+
+  const AdDivComponent = styled("div")(({ theme }) => ({
+    marginTop: theme.spacing(10),
+  }));
 
   return (
     <>
@@ -91,6 +96,20 @@ export default function FishbowlApp(props) {
             >
               <Toolbar />
               <Component {...pageProps} />
+              <AdDivComponent>
+                <ins
+                  className="adsbygoogle"
+                  style={{ display: "block" }}
+                  data-ad-client="ca-pub-8296888972658787"
+                  data-ad-slot="6818628677"
+                  data-ad-format="horizontal"
+                  data-full-width-responsive="true"
+                ></ins>
+                <Script
+                  id="footerAds"
+                  strategy="afterInteractive"
+                >{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
+              </AdDivComponent>
             </Container>
           </MainComponent>
         </ThemeProvider>
