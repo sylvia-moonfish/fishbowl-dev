@@ -15,6 +15,7 @@ import { styled } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 
 import { useRouter } from "next/router";
+import Script from "next/script";
 import * as React from "react";
 
 import SiteInfo from "/data/site-info";
@@ -70,10 +71,26 @@ export async function getStaticProps(context) {
 export default function BisGuide(props) {
   const router = useRouter();
 
+  React.useEffect(() => {
+    const adsense = (url) => {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    };
+
+    router.events.on("routeChangeComplete", adsense);
+
+    return () => {
+      router.events.off("routeChangeComplete", adsense);
+    };
+  }, [router.events]);
+
   const ImgComponent = styled("img")({
     maxWidth: 400,
     width: "100%",
   });
+
+  const AdParagraphComponent = styled("p")(({ theme }) => ({
+    marginTop: theme.spacing(3),
+  }));
 
   if (router.isFallback) {
     return <LinearProgress color="secondary" />;
@@ -122,6 +139,20 @@ export default function BisGuide(props) {
             <Typography variant="body1">
               {props.pageData.descriptionText}
             </Typography>
+            <AdParagraphComponent>
+              <ins
+                className="adsbygoogle"
+                style={{ display: "block", textAlign: "center" }}
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-8296888972658787"
+                data-ad-slot="8693751466"
+              ></ins>
+              <Script
+                id="inPageAds"
+                strategy="afterInteractive"
+              >{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
+            </AdParagraphComponent>
           </Grid>
           <Grid item>
             <Grid container direction="row" spacing={5}>

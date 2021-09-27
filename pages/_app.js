@@ -96,7 +96,7 @@ export default function FishbowlApp(props) {
             >
               <Toolbar />
               <Component {...pageProps} />
-              <AdDivComponent>
+              <AdDivComponent align="center">
                 <ins
                   className="adsbygoogle"
                   style={{ display: "block" }}
