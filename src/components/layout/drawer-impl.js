@@ -52,6 +52,10 @@ export default function DrawerImpl(props) {
   });
 
   const AdDivComponent = styled("div")(({ theme }) => ({
+    display: {
+      xs: "none",
+      lg: "block",
+    },
     height: 250,
     marginTop: 0,
     marginBottom: theme.spacing(3),
@@ -82,7 +86,10 @@ export default function DrawerImpl(props) {
         <ins
           className="adsbygoogle"
           style={{
-            display: "inline-block",
+            display: {
+              xs: "none",
+              lg: "inline-block",
+            },
             height: 250,
             width: 250,
           }}
