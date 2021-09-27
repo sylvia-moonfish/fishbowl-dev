@@ -23,6 +23,7 @@ import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 
 import { useRouter } from "next/router";
+import Script from "next/script";
 import * as React from "react";
 
 import SiteInfo from "/data/site-info";
@@ -97,6 +98,18 @@ export default function BisGuideJob(props) {
   const [selectedGearSetIndex, setSelectedGearSetIndex] = React.useState(-1);
 
   const router = useRouter();
+
+  React.useEffect(() => {
+    const adsense = (url) => {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    };
+
+    router.events.on("routeChangeComplete", adsense);
+
+    return () => {
+      router.events.off("routeChangeComplete", adsense);
+    };
+  }, [router.events]);
 
   if (router.isFallback) {
     return <LinearProgress color="secondary" />;
@@ -179,6 +192,22 @@ export default function BisGuideJob(props) {
                     <ImgComponent src={props.pageData.banner} />
                   </Grid>
                 </Grid>
+              </Grid>
+              <Grid item>
+                <div align="center">
+                  <ins
+                    className="adsbygoogle"
+                    style={{ display: "block", textAlign: "center" }}
+                    data-ad-layout="in-article"
+                    data-ad-format="fluid"
+                    data-ad-client="ca-pub-8296888972658787"
+                    data-ad-slot="8693751466"
+                  ></ins>
+                  <Script
+                    id="inPageAds"
+                    strategy="afterInteractive"
+                  >{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
+                </div>
               </Grid>
               <Grid item>
                 <Typography component="p" variant="body1">

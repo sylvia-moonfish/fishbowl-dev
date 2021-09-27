@@ -88,10 +88,6 @@ export default function BisGuide(props) {
     width: "100%",
   });
 
-  const AdParagraphComponent = styled("p")(({ theme }) => ({
-    marginTop: theme.spacing(3),
-  }));
-
   if (router.isFallback) {
     return <LinearProgress color="secondary" />;
   }
@@ -136,10 +132,7 @@ export default function BisGuide(props) {
             </Grid>
           </Grid>
           <Grid item>
-            <Typography variant="body1">
-              {props.pageData.descriptionText}
-            </Typography>
-            <AdParagraphComponent>
+            <div align="center">
               <ins
                 className="adsbygoogle"
                 style={{ display: "block", textAlign: "center" }}
@@ -152,7 +145,12 @@ export default function BisGuide(props) {
                 id="inPageAds"
                 strategy="afterInteractive"
               >{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
-            </AdParagraphComponent>
+            </div>
+          </Grid>
+          <Grid item>
+            <Typography variant="body1">
+              {props.pageData.descriptionText}
+            </Typography>
           </Grid>
           <Grid item>
             <Grid container direction="row" spacing={5}>
