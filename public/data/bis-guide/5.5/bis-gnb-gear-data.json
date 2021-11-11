@@ -1913,11 +1913,11 @@
         "gears": [
           {
             "nameEn": "Blade's Resolve",
-            "nameKo": null,
+            "nameKo": "군힐드의 검의 결의",
             "iconSrc": "/icons/items/blades-resolve.png",
             "type": "무기",
-            "from": "영웅 레이드",
-            "required": "4층 낱장 x 8",
+            "from": "레지스탕스 웨폰",
+            "required": "레지스탕스 웨폰",
             "materiaSlots": 0,
             "overmeldSlots": 0,
             "attribute": {

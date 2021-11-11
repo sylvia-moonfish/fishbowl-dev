@@ -4506,11 +4506,11 @@
         "gears": [
           {
             "nameEn": "Blade's Honor",
-            "nameKo": null,
+            "nameKo": "군힐드의 검의 명예",
             "iconSrc": "/icons/items/blades-honor.png",
             "type": "무기",
-            "from": "영웅 레이드",
-            "required": "4층 낱장 x 5",
+            "from": "레지스탕스 웨폰",
+            "required": "레지스탕스 웨폰",
             "materiaSlots": 0,
             "overmeldSlots": 0,
             "attribute": {
@@ -4595,11 +4595,11 @@
           },
           {
             "nameEn": "Blade's Fortitude",
-            "nameKo": null,
+            "nameKo": "군힐드의 검의 인내",
             "iconSrc": "/icons/items/blades-fortitude.png",
             "type": "방패",
-            "from": "영웅 레이드",
-            "required": "4층 낱장 x 3",
+            "from": "레지스탕스 웨폰",
+            "required": "레지스탕스 웨폰",
             "materiaSlots": 0,
             "overmeldSlots": 0,
             "attribute": {
@@ -5505,11 +5505,11 @@
         "gears": [
           {
             "nameEn": "Blade's Honor",
-            "nameKo": null,
+            "nameKo": "군힐드의 검의 명예",
             "iconSrc": "/icons/items/blades-honor.png",
             "type": "무기",
-            "from": "영웅 레이드",
-            "required": "4층 낱장 x 5",
+            "from": "레지스탕스 웨폰",
+            "required": "레지스탕스 웨폰",
             "materiaSlots": 0,
             "overmeldSlots": 0,
             "attribute": {
@@ -5615,11 +5615,11 @@
           },
           {
             "nameEn": "Blade's Fortitude",
-            "nameKo": null,
+            "nameKo": "군힐드의 검의 인내",
             "iconSrc": "/icons/items/blades-fortitude.png",
             "type": "방패",
-            "from": "영웅 레이드",
-            "required": "4층 낱장 x 3",
+            "from": "레지스탕스 웨폰",
+            "required": "레지스탕스 웨폰",
             "materiaSlots": 0,
             "overmeldSlots": 0,
             "attribute": {
@@ -6504,11 +6504,11 @@
         "gears": [
           {
             "nameEn": "Blade's Honor",
-            "nameKo": null,
+            "nameKo": "군힐드의 검의 명예",
             "iconSrc": "/icons/items/blades-honor.png",
             "type": "무기",
-            "from": "영웅 레이드",
-            "required": "4층 낱장 x 5",
+            "from": "레지스탕스 웨폰",
+            "required": "레지스탕스 웨폰",
             "materiaSlots": 0,
             "overmeldSlots": 0,
             "attribute": {
@@ -6593,11 +6593,11 @@
           },
           {
             "nameEn": "Blade's Fortitude",
-            "nameKo": null,
+            "nameKo": "군힐드의 검의 인내",
             "iconSrc": "/icons/items/blades-fortitude.png",
             "type": "방패",
-            "from": "영웅 레이드",
-            "required": "4층 낱장 x 3",
+            "from": "레지스탕스 웨폰",
+            "required": "레지스탕스 웨폰",
             "materiaSlots": 0,
             "overmeldSlots": 0,
             "attribute": {
